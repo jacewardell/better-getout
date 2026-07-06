@@ -16,7 +16,12 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
+      # Check out with a personal token so the data push is attributed to a real
+      # user, not GITHUB_TOKEN. A GITHUB_TOKEN push does not reliably trigger the
+      # branch Pages build; a real-user push does (matches trump-stock-cloud).
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GETOUT_TOKEN }}
 
       - uses: actions/setup-node@v4
         with:
@@ -27,8 +32,8 @@ jobs:
 
       - name: Commit changed data
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "Jace Wardell"
+          git config user.email "jacewardell@users.noreply.github.com"
           git add data/
           if git diff --cached --quiet; then
             echo "No data changes."
