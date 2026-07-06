@@ -182,6 +182,10 @@
         <select id="city"></select>
       </div>
       <div class="col">
+        <label class="field-label" for="frequency">Frequency</label>
+        <select id="frequency"></select>
+      </div>
+      <div class="col">
         <label class="field-label" for="day">Open on</label>
         <select id="day"></select>
       </div>
@@ -217,7 +221,7 @@
   const $ = (id) => document.getElementById(id);
   const el = {
     q: $("q"), qclear: $("qclear"), market: $("market"), category: $("category"),
-    city: $("city"), day: $("day"), toggles: $("toggles"), clearAll: $("clearAll"),
+    city: $("city"), frequency: $("frequency"), day: $("day"), toggles: $("toggles"), clearAll: $("clearAll"),
     summary: $("summary"), results: $("results"), overlay: $("overlay"), modal: $("modal"),
     genNote: $("genNote"),
   };
@@ -225,7 +229,7 @@
   let venues = [];
   let meta = { markets: [], categories: [] };
   const state = {
-    q: "", market: "", category: "", city: "", day: "",
+    q: "", market: "", category: "", city: "", frequency: "", day: "",
     flags: { isNew: false, website: false, events: false },
   };
 
@@ -245,10 +249,22 @@
       }).join("");
   }
 
+  // order frequencies by visits-per-year (most frequent first), not alphabetically
+  const FREQ_PERIOD = { daily: 365, weekly: 52, monthly: 12, quarterly: 4, "bi-annually": 2, yearly: 1 };
+  function freqRank(f) {
+    if (!f) return -1;
+    if (/unlimited/i.test(f)) return Infinity;
+    const m = f.match(/(\d+)\s*x\s*(.+)/i);
+    if (!m) return 0;
+    const per = FREQ_PERIOD[m[2].trim().toLowerCase()];
+    return per ? parseInt(m[1], 10) * per : 0;
+  }
+
   function matches(v) {
     if (state.market && v.market !== state.market) return false;
     if (state.category && v.category !== state.category) return false;
     if (state.city && v.city !== state.city) return false;
+    if (state.frequency && v.frequency !== state.frequency) return false;
     if (state.day && !v.days[state.day]) return false;
     if (state.flags.isNew && !v.isNew) return false;
     if (state.flags.website && !v.website) return false;
@@ -382,7 +398,7 @@
   function activeFilterCount() {
     let n = 0;
     if (state.q) n++;
-    for (const k of ["market", "category", "city", "day"]) if (state[k]) n++;
+    for (const k of ["market", "category", "city", "frequency", "day"]) if (state[k]) n++;
     for (const k in state.flags) if (state.flags[k]) n++;
     return n;
   }
@@ -392,6 +408,7 @@
     el.market.value = state.market;
     el.category.value = state.category;
     el.city.value = state.city;
+    el.frequency.value = state.frequency;
     el.day.value = state.day;
     el.qclear.classList.toggle("hidden", !state.q);
     [...el.toggles.querySelectorAll("button.chip")].forEach((b) =>
@@ -399,19 +416,26 @@
   }
 
   function clearAll() {
-    state.q = ""; state.market = ""; state.category = ""; state.city = ""; state.day = "";
+    state.q = ""; state.market = ""; state.category = ""; state.city = ""; state.frequency = ""; state.day = "";
     state.flags = { isNew: false, website: false, events: false };
-    lsSet(); syncControls(); render();
+    buildScopedOptions(); lsSet(); syncControls(); render();
   }
 
-  function buildCityOptions() {
-    // cities scoped to the selected market when one is chosen, else all
+  // city + frequency options scoped to the selected market (all venues if none);
+  // drops any current selection that isn't present in the scoped pool
+  function buildScopedOptions() {
     const pool = state.market ? venues.filter((v) => v.market === state.market) : venues;
+
     const cities = [...new Set(pool.map((v) => v.city).filter(Boolean))].sort();
-    const keep = state.city && cities.includes(state.city) ? state.city : "";
+    state.city = state.city && cities.includes(state.city) ? state.city : "";
     fillSelect(el.city, cities, "All cities");
-    state.city = keep;
-    el.city.value = keep;
+    el.city.value = state.city;
+
+    const freqs = [...new Set(pool.map((v) => v.frequency).filter(Boolean))]
+      .sort((a, b) => freqRank(b) - freqRank(a) || a.localeCompare(b));
+    state.frequency = state.frequency && freqs.includes(state.frequency) ? state.frequency : "";
+    fillSelect(el.frequency, freqs, "Any frequency");
+    el.frequency.value = state.frequency;
   }
 
   // ---------- wire up ----------
@@ -422,9 +446,10 @@
   });
   el.qclear.addEventListener("click", () => { el.q.value = ""; state.q = ""; el.qclear.classList.add("hidden"); lsSet(); render(); el.q.focus(); });
 
-  el.market.addEventListener("change", () => { state.market = el.market.value; buildCityOptions(); lsSet(); render(); });
+  el.market.addEventListener("change", () => { state.market = el.market.value; buildScopedOptions(); lsSet(); render(); });
   el.category.addEventListener("change", () => { state.category = el.category.value; lsSet(); render(); });
   el.city.addEventListener("change", () => { state.city = el.city.value; lsSet(); render(); });
+  el.frequency.addEventListener("change", () => { state.frequency = el.frequency.value; lsSet(); render(); });
   el.day.addEventListener("change", () => { state.day = el.day.value; lsSet(); render(); });
 
   el.toggles.addEventListener("click", (e) => {
@@ -458,7 +483,7 @@
     if (Object.keys(saved).length) Object.assign(state, saved);
     else if (meta.markets.some((mk) => mk.slug === "ut")) state.market = "ut";
     if (!state.flags) state.flags = { isNew: false, website: false, events: false };
-    buildCityOptions();
+    buildScopedOptions();
     syncControls();
 
     if (meta.generatedAt) {
