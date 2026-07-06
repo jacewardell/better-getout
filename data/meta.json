@@ -1,0 +1,287 @@
+{
+  "generatedAt": "2026-07-06T04:59:17.933Z",
+  "marketCount": 33,
+  "venueCount": 1463,
+  "markets": [
+    {
+      "slug": "az",
+      "name": "Arizona",
+      "state": "Arizona",
+      "city": "Phoenix",
+      "venueCount": 55,
+      "price": "$69.95"
+    },
+    {
+      "slug": "ar",
+      "name": "Arkansas",
+      "state": "Arkansas",
+      "city": "Little Rock",
+      "venueCount": 29,
+      "price": "$49.95"
+    },
+    {
+      "slug": "ca-cv",
+      "name": "California Central Valley",
+      "state": "California",
+      "city": "Fresno",
+      "venueCount": 23,
+      "price": "$69.95"
+    },
+    {
+      "slug": "ca-n",
+      "name": "California Northern",
+      "state": "California",
+      "city": "Sacramento",
+      "venueCount": 54,
+      "price": "$44.95"
+    },
+    {
+      "slug": "ca-s",
+      "name": "California Southern",
+      "state": "California",
+      "city": "Los Angeles",
+      "venueCount": 44,
+      "price": "$74.95"
+    },
+    {
+      "slug": "co",
+      "name": "Colorado",
+      "state": "Colorado",
+      "city": "Denver",
+      "venueCount": 75,
+      "price": "$49.95"
+    },
+    {
+      "slug": "fl-c",
+      "name": "Florida Central",
+      "state": "Florida",
+      "city": "Orlando",
+      "venueCount": 61,
+      "price": "$74.95"
+    },
+    {
+      "slug": "ec",
+      "name": "Florida Emerald Coast",
+      "state": "Florida",
+      "city": "Destin",
+      "venueCount": 25,
+      "price": "$49.95"
+    },
+    {
+      "slug": "fl-s",
+      "name": "Florida South",
+      "state": "Florida",
+      "city": "Miami",
+      "venueCount": 34,
+      "price": "$54.95"
+    },
+    {
+      "slug": "ga",
+      "name": "Georgia",
+      "state": "Georgia",
+      "city": "Atlanta",
+      "venueCount": 18,
+      "price": "$59.95"
+    },
+    {
+      "slug": "id",
+      "name": "Idaho",
+      "state": "Idaho",
+      "city": "Boise",
+      "venueCount": 65,
+      "price": "$74.95"
+    },
+    {
+      "slug": "in",
+      "name": "Indiana",
+      "state": "Indiana",
+      "city": "Indianapolis",
+      "venueCount": 35,
+      "price": "$39.95"
+    },
+    {
+      "slug": "mo",
+      "name": "Kansas City",
+      "state": "Missouri",
+      "city": "Kansas City",
+      "venueCount": 56,
+      "price": "$64.95"
+    },
+    {
+      "slug": "kt",
+      "name": "Kentucky",
+      "state": "Kentucky",
+      "city": "Frankfort",
+      "venueCount": 35,
+      "price": "$44.95"
+    },
+    {
+      "slug": "lv",
+      "name": "Las Vegas",
+      "state": "Nevada",
+      "city": "Las Vegas",
+      "venueCount": 37,
+      "price": "$49.95"
+    },
+    {
+      "slug": "mw-dc",
+      "name": "Maryland / Washington D.C.",
+      "state": "District of Columbia",
+      "city": "Washington",
+      "venueCount": 37,
+      "price": "$59.95"
+    },
+    {
+      "slug": "nb",
+      "name": "Nebraska",
+      "state": "Nebraska",
+      "city": "Lincoln",
+      "venueCount": 40,
+      "price": "$39.95"
+    },
+    {
+      "slug": "ne",
+      "name": "New England",
+      "state": "Massachusetts",
+      "city": "Boston",
+      "venueCount": 41,
+      "price": "$59.95"
+    },
+    {
+      "slug": "nj-ph",
+      "name": "New Jersey / Philadelphia",
+      "state": "Pennsylvania",
+      "city": "Philadelphia",
+      "venueCount": 41,
+      "price": "$109.95"
+    },
+    {
+      "slug": "nm-wtx",
+      "name": "New Mexico / West Texas",
+      "state": "Texas",
+      "city": "El Paso",
+      "venueCount": 29,
+      "price": "$39.95"
+    },
+    {
+      "slug": "nc",
+      "name": "North Carolina",
+      "state": "North Carolina",
+      "city": "Raleigh",
+      "venueCount": 40,
+      "price": "$44.95"
+    },
+    {
+      "slug": "oh",
+      "name": "Ohio",
+      "state": "Ohio",
+      "city": "Columbus",
+      "venueCount": 55,
+      "price": "$54.95"
+    },
+    {
+      "slug": "ok",
+      "name": "Oklahoma",
+      "state": "Oklahoma",
+      "city": "Oklahoma City",
+      "venueCount": 38,
+      "price": "$54.95"
+    },
+    {
+      "slug": "or",
+      "name": "Oregon",
+      "state": "Oregon",
+      "city": "Salem",
+      "venueCount": 35,
+      "price": "$59.95"
+    },
+    {
+      "slug": "pa-pb",
+      "name": "Pennsylvania Pittsburgh",
+      "state": "Pennsylvania",
+      "city": "Pittsburgh",
+      "venueCount": 25,
+      "price": "$49.95"
+    },
+    {
+      "slug": "stl",
+      "name": "St. Louis",
+      "state": "Missouri",
+      "city": "Saint Louis",
+      "venueCount": 22,
+      "price": "$54.95"
+    },
+    {
+      "slug": "tn",
+      "name": "Tennessee",
+      "state": "Tennessee",
+      "city": "Nashville",
+      "venueCount": 43,
+      "price": "$54.95"
+    },
+    {
+      "slug": "tx-aus",
+      "name": "Texas Austin",
+      "state": "Texas",
+      "city": "Austin",
+      "venueCount": 38,
+      "price": "$54.95"
+    },
+    {
+      "slug": "tx-dfw",
+      "name": "Texas DFW",
+      "state": "Texas",
+      "city": "Dallas",
+      "venueCount": 57,
+      "price": "$64.95"
+    },
+    {
+      "slug": "tx-hou",
+      "name": "Texas Houston",
+      "state": "Texas",
+      "city": "Houston",
+      "venueCount": 58,
+      "price": "$69.95"
+    },
+    {
+      "slug": "tx-san",
+      "name": "Texas San Antonio",
+      "state": "Texas",
+      "city": "San Antonio",
+      "venueCount": 35,
+      "price": "$74.95"
+    },
+    {
+      "slug": "ut",
+      "name": "Utah",
+      "state": "Utah",
+      "city": "Salt Lake City",
+      "venueCount": 144,
+      "price": "$59.95"
+    },
+    {
+      "slug": "wa",
+      "name": "Washington",
+      "state": "Washington",
+      "city": "Olympia",
+      "venueCount": 39,
+      "price": "$54.95"
+    }
+  ],
+  "categories": [
+    "Amusement & Attractions",
+    "Animals & Nature",
+    "Arts & Creativity",
+    "Exploration & Travel",
+    "Food & Nightlife",
+    "Health & Fitness",
+    "Interactive Entertainment",
+    "Live Entertainment",
+    "Live Sports",
+    "Museums & Education",
+    "Other",
+    "Relaxation & Wellness",
+    "Seasonal Attractions",
+    "Sports & Recreation"
+  ]
+}

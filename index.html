@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Better Get Out</title>
+<style>
+  :root {
+    --bg: #0e1116;
+    --bg-soft: #151a22;
+    --card: #1a212b;
+    --card-hover: #202a36;
+    --ink: #e8edf4;
+    --muted: #93a1b5;
+    --faint: #64748b;
+    --accent: #34d399;         /* emerald */
+    --accent-dark: #10b981;
+    --accent-ink: #04120c;
+    --highlight: #fbbf24;      /* amber "NEW" */
+    --line: #2a3542;
+    --line-soft: #222c38;
+    --chip: #202a36;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+    --radius: 14px;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f6f8fb; --bg-soft: #eef2f7; --card: #ffffff; --card-hover: #f8fafc;
+      --ink: #0f172a; --muted: #55637a; --faint: #8695ab;
+      --accent: #059669; --accent-dark: #047857; --accent-ink: #ffffff;
+      --highlight: #b45309;
+      --line: #dde5ee; --line-soft: #e7edf4; --chip: #eef2f7;
+      --shadow: 0 1px 2px rgba(15,23,42,.06), 0 10px 30px -18px rgba(15,23,42,.35);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent-dark); }
+  header {
+    background: linear-gradient(135deg, var(--bg-soft), var(--bg));
+    border-bottom: 1px solid var(--line);
+    padding: 26px 20px 22px;
+  }
+  header .wrap { max-width: 1100px; margin: 0 auto; }
+  header h1 { margin: 0 0 4px; font-size: 1.7rem; letter-spacing: -.02em; }
+  header h1 .out { color: var(--accent); }
+  header p { margin: 0; color: var(--muted); font-size: .95rem; }
+  main { max-width: 1100px; margin: 0 auto; padding: 20px; }
+
+  .panel {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 16px;
+    margin-bottom: 18px;
+  }
+  label.field-label { display: block; font-weight: 600; font-size: .72rem; color: var(--muted); margin-bottom: 6px; text-transform: uppercase; letter-spacing: .06em; }
+  input[type=text], select {
+    width: 100%; padding: 10px 12px; font-size: 1rem;
+    border: 1px solid var(--line); border-radius: 9px;
+    background: var(--bg-soft); color: var(--ink);
+  }
+  input[type=text]:focus, select:focus { outline: 2px solid var(--accent); border-color: var(--accent); }
+  select { appearance: none; cursor: pointer; }
+  .row { display: flex; gap: 12px; flex-wrap: wrap; }
+  .row > .col { flex: 1 1 200px; min-width: 0; }
+  .combo { position: relative; }
+  .combo input[type=text] { padding-right: 36px; }
+  .clear-x {
+    position: absolute; top: 50%; right: 6px; transform: translateY(-50%);
+    width: 26px; height: 26px; padding: 0; line-height: 1;
+    border: none; border-radius: 99px; background: none; color: var(--muted);
+    font-size: 1.2rem; display: flex; align-items: center; justify-content: center; cursor: pointer;
+  }
+  .clear-x:hover { color: var(--ink); }
+
+  .toggles { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; align-items: center; }
+  button, .btn {
+    cursor: pointer; font: inherit; border: 1px solid var(--line);
+    background: var(--chip); color: var(--ink); padding: 8px 14px; border-radius: 9px; font-weight: 600;
+  }
+  button:hover { border-color: var(--accent); }
+  button.chip { padding: 6px 12px; font-size: .85rem; font-weight: 500; }
+  button.chip[aria-pressed=true] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  .link { background: none; border: none; color: var(--accent-dark); text-decoration: underline; cursor: pointer; padding: 0; font: inherit; }
+
+  .summary { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; color: var(--muted); font-size: .9rem; }
+  .summary b { color: var(--ink); }
+
+  .results { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+  .venue {
+    position: relative; text-align: left; padding: 0; overflow: hidden;
+    background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+    box-shadow: var(--shadow); cursor: pointer; display: flex; flex-direction: column;
+  }
+  .venue:hover { border-color: var(--accent); background: var(--card-hover); }
+  .venue .thumb { height: 130px; background: var(--bg-soft) center/cover no-repeat; border-bottom: 1px solid var(--line-soft); }
+  .venue .body { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+  .venue .name { font-weight: 700; font-size: 1.02rem; letter-spacing: -.01em; line-height: 1.25; }
+  .venue .meta { color: var(--muted); font-size: .82rem; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+  .venue .meta .dot { color: var(--faint); }
+  .badge-new {
+    position: absolute; top: 10px; left: 10px; z-index: 1;
+    background: var(--highlight); color: #1a1206; font-weight: 800; font-size: .68rem;
+    letter-spacing: .06em; padding: 3px 8px; border-radius: 6px;
+  }
+  .cat-tag { display: inline-block; font-size: .74rem; color: var(--accent-dark); font-weight: 600; }
+
+  .empty, .error { text-align: center; padding: 48px 20px; color: var(--muted); }
+  .error { color: #fda4af; }
+
+  /* modal */
+  .overlay { position: fixed; inset: 0; background: rgba(0,0,0,.6); display: none; align-items: flex-start; justify-content: center; padding: 24px 16px; overflow-y: auto; z-index: 50; }
+  .overlay.open { display: flex; }
+  .modal {
+    background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+    max-width: 640px; width: 100%; box-shadow: 0 20px 60px -20px rgba(0,0,0,.7); overflow: hidden;
+  }
+  .modal .banner { height: 190px; background: var(--bg-soft) center/cover no-repeat; position: relative; }
+  .modal .close {
+    position: absolute; top: 12px; right: 12px; width: 34px; height: 34px; border-radius: 99px; padding: 0;
+    background: rgba(0,0,0,.55); color: #fff; border: none; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .modal .close svg { display: block; }
+  .modal .m-body { padding: 20px 22px 24px; }
+  .modal h2 { margin: 0 0 4px; font-size: 1.4rem; letter-spacing: -.02em; }
+  .modal .m-sub { color: var(--muted); font-size: .9rem; margin-bottom: 16px; }
+  .modal .m-sub .cat-tag { color: var(--accent-dark); }
+  .section { margin-top: 16px; }
+  .section h3 { margin: 0 0 6px; font-size: .74rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  .section p { margin: 0; font-size: .95rem; }
+  .days { display: flex; gap: 6px; flex-wrap: wrap; }
+  .day { font-size: .78rem; padding: 4px 9px; border-radius: 7px; background: var(--bg-soft); color: var(--faint); border: 1px solid var(--line-soft); text-transform: uppercase; letter-spacing: .04em; }
+  .day.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 700; }
+  .m-links { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 18px; }
+  .m-links a { text-decoration: none; }
+  .m-links .btn { display: inline-flex; align-items: center; gap: 6px; }
+  .m-links .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  .events li { margin-bottom: 8px; }
+  .events .ev-name { font-weight: 600; }
+  .events .ev-when { color: var(--muted); font-size: .85rem; }
+  footer { max-width: 1100px; margin: 0 auto; padding: 8px 20px 48px; color: var(--faint); font-size: .82rem; }
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Better Get <span class="out">Out</span></h1>
+    <p>Search and filter every GetOut membership venue. Faster than the source site.</p>
+  </div>
+</header>
+
+<main>
+  <div class="panel">
+    <div class="row">
+      <div class="col" style="flex: 2 1 320px;">
+        <label class="field-label" for="q">Search</label>
+        <div class="combo">
+          <input type="text" id="q" placeholder="Name, description, or city…" autocomplete="off">
+          <button type="button" id="qclear" class="clear-x hidden" aria-label="Clear">&times;</button>
+        </div>
+      </div>
+      <div class="col">
+        <label class="field-label" for="market">Market</label>
+        <select id="market"></select>
+      </div>
+      <div class="col">
+        <label class="field-label" for="category">Category</label>
+        <select id="category"></select>
+      </div>
+      <div class="col">
+        <label class="field-label" for="city">City</label>
+        <select id="city"></select>
+      </div>
+      <div class="col">
+        <label class="field-label" for="day">Open on</label>
+        <select id="day"></select>
+      </div>
+    </div>
+    <div class="toggles" id="toggles">
+      <button class="chip" data-flag="isNew" aria-pressed="false">NEW</button>
+      <button class="chip" data-flag="website" aria-pressed="false">Has website</button>
+      <button class="chip" data-flag="events" aria-pressed="false">Has events</button>
+      <span style="flex:1 1 auto"></span>
+      <button class="link" id="clearAll">Clear filters</button>
+    </div>
+  </div>
+
+  <div class="summary" id="summary"></div>
+  <div id="results" class="results"></div>
+</main>
+
+<footer id="footer">
+  Unofficial. Data from GetOut's public API, refreshed daily. <span id="genNote"></span>
+</footer>
+
+<div class="overlay" id="overlay">
+  <div class="modal" id="modal" role="dialog" aria-modal="true"></div>
+</div>
+
+<script>
+(() => {
+  "use strict";
+
+  const LS = "bgo:filters";
+  const DAYS = [["mon","Mon"],["tue","Tue"],["wed","Wed"],["thu","Thu"],["fri","Fri"],["sat","Sat"],["sun","Sun"]];
+
+  const $ = (id) => document.getElementById(id);
+  const el = {
+    q: $("q"), qclear: $("qclear"), market: $("market"), category: $("category"),
+    city: $("city"), day: $("day"), toggles: $("toggles"), clearAll: $("clearAll"),
+    summary: $("summary"), results: $("results"), overlay: $("overlay"), modal: $("modal"),
+    genNote: $("genNote"),
+  };
+
+  let venues = [];
+  let meta = { markets: [], categories: [] };
+  const state = {
+    q: "", market: "", category: "", city: "", day: "",
+    flags: { isNew: false, website: false, events: false },
+  };
+
+  const lsGet = () => { try { return JSON.parse(localStorage.getItem(LS)) || {}; } catch { return {}; } };
+  const lsSet = () => { try { localStorage.setItem(LS, JSON.stringify(state)); } catch {} };
+
+  function escapeHtml(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, (c) =>
+      ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  }
+
+  function fillSelect(sel, options, placeholder) {
+    sel.innerHTML = `<option value="">${placeholder}</option>` +
+      options.map((o) => {
+        const [val, label] = Array.isArray(o) ? o : [o, o];
+        return `<option value="${escapeHtml(val)}">${escapeHtml(label)}</option>`;
+      }).join("");
+  }
+
+  function matches(v) {
+    if (state.market && v.market !== state.market) return false;
+    if (state.category && v.category !== state.category) return false;
+    if (state.city && v.city !== state.city) return false;
+    if (state.day && !v.days[state.day]) return false;
+    if (state.flags.isNew && !v.isNew) return false;
+    if (state.flags.website && !v.website) return false;
+    if (state.flags.events && !(v.events && v.events.length)) return false;
+    if (state.q) {
+      const q = state.q.toLowerCase();
+      const hay = `${v.name} ${v.description} ${v.city || ""}`.toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  }
+
+  function render() {
+    const rows = venues.filter(matches);
+    el.results.innerHTML = "";
+
+    const active = activeFilterCount();
+    el.summary.innerHTML =
+      `<span><b>${rows.length.toLocaleString()}</b> of ${venues.length.toLocaleString()} venues</span>` +
+      (active ? `<span class="dot">·</span><button class="link" id="sumClear">clear ${active} filter${active > 1 ? "s" : ""}</button>` : "");
+    const sc = $("sumClear");
+    if (sc) sc.addEventListener("click", clearAll);
+
+    if (!rows.length) {
+      el.results.innerHTML = `<div class="empty panel" style="grid-column:1/-1">No venues match these filters.</div>`;
+      return;
+    }
+
+    const frag = document.createDocumentFragment();
+    for (const v of rows) {
+      const card = document.createElement("button");
+      card.className = "venue";
+      card.type = "button";
+      const img = v.banner || v.logo;
+      card.innerHTML =
+        (v.isNew ? `<span class="badge-new">NEW</span>` : "") +
+        `<div class="thumb"${img ? ` style="background-image:url('${escapeHtml(img)}')"` : ""}></div>` +
+        `<div class="body">` +
+          (v.category ? `<span class="cat-tag">${escapeHtml(v.category)}</span>` : "") +
+          `<div class="name">${escapeHtml(v.name)}</div>` +
+          `<div class="meta"><span>${escapeHtml(v.marketName)}</span>` +
+          (v.city ? `<span class="dot">·</span><span>${escapeHtml(v.city)}</span>` : "") + `</div>` +
+        `</div>`;
+      card.addEventListener("click", () => openModal(v));
+      frag.appendChild(card);
+    }
+    el.results.appendChild(frag);
+  }
+
+  function gmapsUrl(v) {
+    const a = v.address || {};
+    // Prefer name + street address — Google resolves it to the actual venue,
+    // whereas raw lat/lng often drops the pin in a lot or field nearby.
+    const parts = [v.name, a.line1, a.city, a.state, a.zip].filter(Boolean).join(", ");
+    if (parts) return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(parts)}`;
+    if (a.lat != null && a.lng != null) return `https://www.google.com/maps/search/?api=1&query=${a.lat},${a.lng}`;
+    return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(v.name || "")}`;
+  }
+
+  function fmtEvent(e) {
+    if (!e.startsAt) return "";
+    // starts_at is a local naive timestamp like 2026-09-10T18:35:00
+    const [d, t] = e.startsAt.split("T");
+    const [y, m, day] = d.split("-").map(Number);
+    const dt = new Date(y, (m || 1) - 1, day || 1);
+    const date = dt.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric", year: "numeric" });
+    const time = t ? new Date(`1970-01-01T${t}`).toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" }) : "";
+    return time ? `${date} · ${time}` : date;
+  }
+
+  function openModal(v) {
+    const a = v.address || {};
+    const addrLines = [a.line1, a.line2, [a.city, a.state, a.zip].filter(Boolean).join(", ")].filter(Boolean);
+    const img = v.banner || v.logo;
+
+    const section = (title, body) => body ? `<div class="section"><h3>${title}</h3>${body}</div>` : "";
+
+    const daysRow = `<div class="days">` +
+      DAYS.map(([k, lbl]) => `<span class="day${v.days[k] ? " on" : ""}">${lbl}</span>`).join("") + `</div>`;
+
+    const events = (v.events && v.events.length)
+      ? `<ul class="events" style="margin:0;padding-left:18px">` +
+        v.events.map((e) =>
+          `<li><span class="ev-name">${escapeHtml(e.name)}</span>` +
+          (fmtEvent(e) ? `<br><span class="ev-when">${escapeHtml(fmtEvent(e))}</span>` : "") +
+          (e.description ? `<br><span class="small">${escapeHtml(e.description)}</span>` : "") + `</li>`).join("") +
+        `</ul>`
+      : "";
+
+    const links = [];
+    if (v.website) links.push(`<a href="${escapeHtml(v.website)}" target="_blank" rel="noopener"><span class="btn primary">Visit website ↗</span></a>`);
+    links.push(`<a href="${gmapsUrl(v)}" target="_blank" rel="noopener"><span class="btn">Map ↗</span></a>`);
+    if (v.phone) links.push(`<a href="tel:${escapeHtml(v.phone.replace(/[^0-9+]/g, ""))}"><span class="btn">${escapeHtml(v.phone)}</span></a>`);
+
+    const typeLabel = [v.category, v.subcategory].filter(Boolean).join(" · ");
+
+    el.modal.innerHTML =
+      `<div class="banner"${img ? ` style="background-image:url('${escapeHtml(img)}')"` : ""}>` +
+        `<button class="close" id="mClose" aria-label="Close">` +
+          `<svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">` +
+          `<path d="M2 2 L13 13 M13 2 L2 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>` +
+      `<div class="m-body">` +
+        `<h2>${escapeHtml(v.name)}</h2>` +
+        `<div class="m-sub">` +
+          (typeLabel ? `<span class="cat-tag">${escapeHtml(typeLabel)}</span> · ` : "") +
+          `${escapeHtml(v.marketName)}${v.isNew ? ' · <span style="color:var(--highlight);font-weight:700">NEW</span>' : ""}</div>` +
+        section("Address", addrLines.length ? `<p>${addrLines.map(escapeHtml).join("<br>")}</p>` : "") +
+        section("About", v.description ? `<p>${escapeHtml(v.description)}</p>` : "") +
+        section("What you get", v.inclusionOverview ? `<p>${escapeHtml(v.inclusionOverview)}</p>` : "") +
+        section("Details", v.inclusionDetails ? `<p>${escapeHtml(v.inclusionDetails)}</p>` : "") +
+        section("Frequency", v.frequency ? `<p>${escapeHtml(v.frequency)}</p>` : "") +
+        section("Available days", daysRow) +
+        section("Events", events) +
+        `<div class="m-links">${links.join("")}</div>` +
+      `</div>`;
+
+    $("mClose").addEventListener("click", closeModal);
+    el.overlay.classList.add("open");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeModal() {
+    el.overlay.classList.remove("open");
+    el.modal.innerHTML = "";
+    document.body.style.overflow = "";
+  }
+
+  el.overlay.addEventListener("click", (e) => { if (e.target === el.overlay) closeModal(); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && el.overlay.classList.contains("open")) closeModal(); });
+
+  function activeFilterCount() {
+    let n = 0;
+    if (state.q) n++;
+    for (const k of ["market", "category", "city", "day"]) if (state[k]) n++;
+    for (const k in state.flags) if (state.flags[k]) n++;
+    return n;
+  }
+
+  function syncControls() {
+    el.q.value = state.q;
+    el.market.value = state.market;
+    el.category.value = state.category;
+    el.city.value = state.city;
+    el.day.value = state.day;
+    el.qclear.classList.toggle("hidden", !state.q);
+    [...el.toggles.querySelectorAll("button.chip")].forEach((b) =>
+      b.setAttribute("aria-pressed", state.flags[b.dataset.flag] ? "true" : "false"));
+  }
+
+  function clearAll() {
+    state.q = ""; state.market = ""; state.category = ""; state.city = ""; state.day = "";
+    state.flags = { isNew: false, website: false, events: false };
+    lsSet(); syncControls(); render();
+  }
+
+  function buildCityOptions() {
+    // cities scoped to the selected market when one is chosen, else all
+    const pool = state.market ? venues.filter((v) => v.market === state.market) : venues;
+    const cities = [...new Set(pool.map((v) => v.city).filter(Boolean))].sort();
+    const keep = state.city && cities.includes(state.city) ? state.city : "";
+    fillSelect(el.city, cities, "All cities");
+    state.city = keep;
+    el.city.value = keep;
+  }
+
+  // ---------- wire up ----------
+  el.q.addEventListener("input", () => {
+    state.q = el.q.value.trim();
+    el.qclear.classList.toggle("hidden", !state.q);
+    lsSet(); render();
+  });
+  el.qclear.addEventListener("click", () => { el.q.value = ""; state.q = ""; el.qclear.classList.add("hidden"); lsSet(); render(); el.q.focus(); });
+
+  el.market.addEventListener("change", () => { state.market = el.market.value; buildCityOptions(); lsSet(); render(); });
+  el.category.addEventListener("change", () => { state.category = el.category.value; lsSet(); render(); });
+  el.city.addEventListener("change", () => { state.city = el.city.value; lsSet(); render(); });
+  el.day.addEventListener("change", () => { state.day = el.day.value; lsSet(); render(); });
+
+  el.toggles.addEventListener("click", (e) => {
+    const btn = e.target.closest("button.chip");
+    if (!btn) return;
+    const f = btn.dataset.flag;
+    state.flags[f] = !state.flags[f];
+    btn.setAttribute("aria-pressed", state.flags[f] ? "true" : "false");
+    lsSet(); render();
+  });
+  el.clearAll.addEventListener("click", clearAll);
+
+  async function boot() {
+    try {
+      const bust = "?" + Date.now();
+      const [v, m] = await Promise.all([
+        fetch("./data/venues.json" + bust).then((r) => { if (!r.ok) throw new Error("venues " + r.status); return r.json(); }),
+        fetch("./data/meta.json" + bust).then((r) => { if (!r.ok) throw new Error("meta " + r.status); return r.json(); }),
+      ]);
+      venues = v; meta = m;
+    } catch (e) {
+      el.results.innerHTML = `<div class="error panel" style="grid-column:1/-1">Couldn't load venue data.<br><span class="small">${escapeHtml(e.message)}</span></div>`;
+      return;
+    }
+
+    fillSelect(el.market, meta.markets.map((mk) => [mk.slug, `${mk.name} (${mk.venueCount})`]), "All markets");
+    fillSelect(el.category, meta.categories, "All categories");
+    fillSelect(el.day, DAYS.map(([k, lbl]) => [k, lbl]), "Any day");
+
+    const saved = lsGet();
+    if (Object.keys(saved).length) Object.assign(state, saved);
+    else if (meta.markets.some((mk) => mk.slug === "ut")) state.market = "ut";
+    if (!state.flags) state.flags = { isNew: false, website: false, events: false };
+    buildCityOptions();
+    syncControls();
+
+    if (meta.generatedAt) {
+      const d = new Date(meta.generatedAt);
+      el.genNote.textContent = `Last updated ${d.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" })}.`;
+    }
+    render();
+  }
+
+  boot();
+})();
+</script>
+</body>
+</html>

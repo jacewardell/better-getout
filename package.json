@@ -1,0 +1,10 @@
+{
+  "name": "better-getout",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Daily fetcher + viewer for GetOut membership venues",
+  "scripts": {
+    "fetch": "node fetch-data.js"
+  }
+}
