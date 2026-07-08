@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T15:40:50.061Z",
+  "generatedAt": "2026-07-08T15:10:49.878Z",
   "marketCount": 33,
   "venueCount": 1462,
   "markets": [
@@ -120,7 +120,7 @@
       "name": "Las Vegas",
       "state": "Nevada",
       "city": "Las Vegas",
-      "venueCount": 37,
+      "venueCount": 38,
       "price": "$49.95"
     },
     {
@@ -264,7 +264,7 @@
       "name": "Washington",
       "state": "Washington",
       "city": "Olympia",
-      "venueCount": 39,
+      "venueCount": 38,
       "price": "$54.95"
     }
   ],
