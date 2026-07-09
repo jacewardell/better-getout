@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T15:10:49.878Z",
+  "generatedAt": "2026-07-09T15:53:29.938Z",
   "marketCount": 33,
   "venueCount": 1462,
   "markets": [
@@ -48,7 +48,7 @@
       "name": "Colorado",
       "state": "Colorado",
       "city": "Denver",
-      "venueCount": 76,
+      "venueCount": 77,
       "price": "$49.95"
     },
     {
@@ -64,7 +64,7 @@
       "name": "Florida Emerald Coast",
       "state": "Florida",
       "city": "Destin",
-      "venueCount": 25,
+      "venueCount": 26,
       "price": "$49.95"
     },
     {
@@ -136,7 +136,7 @@
       "name": "Nebraska",
       "state": "Nebraska",
       "city": "Lincoln",
-      "venueCount": 40,
+      "venueCount": 39,
       "price": "$39.95"
     },
     {
@@ -248,7 +248,7 @@
       "name": "Texas San Antonio",
       "state": "Texas",
       "city": "San Antonio",
-      "venueCount": 35,
+      "venueCount": 34,
       "price": "$74.95"
     },
     {
