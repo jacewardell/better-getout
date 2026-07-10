@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-09T15:53:29.938Z",
+  "generatedAt": "2026-07-10T15:27:07.423Z",
   "marketCount": 33,
-  "venueCount": 1462,
+  "venueCount": 1460,
   "markets": [
     {
       "slug": "az",
@@ -96,7 +96,7 @@
       "name": "Indiana",
       "state": "Indiana",
       "city": "Indianapolis",
-      "venueCount": 35,
+      "venueCount": 34,
       "price": "$39.95"
     },
     {
@@ -256,7 +256,7 @@
       "name": "Utah",
       "state": "Utah",
       "city": "Salt Lake City",
-      "venueCount": 144,
+      "venueCount": 143,
       "price": "$59.95"
     },
     {
