@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-10T15:27:07.423Z",
+  "generatedAt": "2026-07-11T14:19:05.687Z",
   "marketCount": 33,
-  "venueCount": 1460,
+  "venueCount": 1464,
   "markets": [
     {
       "slug": "az",
@@ -48,7 +48,7 @@
       "name": "Colorado",
       "state": "Colorado",
       "city": "Denver",
-      "venueCount": 77,
+      "venueCount": 79,
       "price": "$49.95"
     },
     {
@@ -256,7 +256,7 @@
       "name": "Utah",
       "state": "Utah",
       "city": "Salt Lake City",
-      "venueCount": 143,
+      "venueCount": 145,
       "price": "$59.95"
     },
     {
