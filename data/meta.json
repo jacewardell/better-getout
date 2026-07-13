@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T14:23:31.734Z",
+  "generatedAt": "2026-07-13T15:39:11.128Z",
   "marketCount": 33,
   "venueCount": 1464,
   "markets": [
@@ -8,7 +8,7 @@
       "name": "Arizona",
       "state": "Arizona",
       "city": "Phoenix",
-      "venueCount": 55,
+      "venueCount": 56,
       "price": "$69.95"
     },
     {
@@ -240,7 +240,7 @@
       "name": "Texas Houston",
       "state": "Texas",
       "city": "Houston",
-      "venueCount": 58,
+      "venueCount": 57,
       "price": "$69.95"
     },
     {
