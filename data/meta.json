@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-18T14:16:40.511Z",
+  "generatedAt": "2026-07-19T14:20:52.823Z",
   "marketCount": 33,
-  "venueCount": 1468,
+  "venueCount": 1467,
   "markets": [
     {
       "slug": "az",
@@ -16,7 +16,7 @@
       "name": "Arkansas",
       "state": "Arkansas",
       "city": "Little Rock",
-      "venueCount": 29,
+      "venueCount": 28,
       "price": "$49.95"
     },
     {
