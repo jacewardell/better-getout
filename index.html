@@ -161,6 +161,7 @@
   .m-links a { text-decoration: none; }
   .m-links .btn { display: inline-flex; align-items: center; gap: 6px; }
   .m-links .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  .redeem-hint { margin: 10px 0 0; font-size: .82rem; color: var(--muted); }
   .events li { margin-bottom: 8px; }
   .events .ev-name { font-weight: 600; }
   .events .ev-when { color: var(--muted); font-size: .85rem; }
@@ -383,7 +384,8 @@
       : "";
 
     const links = [];
-    if (v.website) links.push(`<a href="${escapeHtml(v.website)}" target="_blank" rel="noopener"><span class="btn primary">Visit website ↗</span></a>`);
+    links.push(`<button type="button" class="btn primary" id="mRedeem">Redeem on GetOut ↗</button>`);
+    if (v.website) links.push(`<a href="${escapeHtml(v.website)}" target="_blank" rel="noopener"><span class="btn">Visit website ↗</span></a>`);
     links.push(`<a href="${gmapsUrl(v)}" target="_blank" rel="noopener"><span class="btn">Map ↗</span></a>`);
     if (v.phone) links.push(`<a href="tel:${escapeHtml(v.phone.replace(/[^0-9+]/g, ""))}"><span class="btn">${escapeHtml(v.phone)}</span></a>`);
 
@@ -407,9 +409,18 @@
         section("Available days", daysRow) +
         section("Events", events) +
         `<div class="m-links">${links.join("")}</div>` +
+        `<p class="redeem-hint hidden" id="mRedeemHint">Venue name copied. Paste it into GetOut's search to find it.</p>` +
       `</div>`;
 
     $("mClose").addEventListener("click", closeModal);
+    $("mRedeem").addEventListener("click", async () => {
+      // GetOut's member app has no per-venue URLs, so copy the name for their search box
+      try {
+        await navigator.clipboard.writeText(v.name);
+        $("mRedeemHint").classList.remove("hidden");
+      } catch {}
+      window.open("https://app.getout.com/members/venues", "_blank", "noopener");
+    });
     el.overlay.classList.add("open");
     document.body.style.overflow = "hidden";
   }
