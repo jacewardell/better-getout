@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-21T14:56:21.818Z",
+  "generatedAt": "2026-07-22T14:57:16.097Z",
   "marketCount": 33,
-  "venueCount": 1468,
+  "venueCount": 1469,
   "markets": [
     {
       "slug": "az",
@@ -24,7 +24,7 @@
       "name": "California Central Valley",
       "state": "California",
       "city": "Fresno",
-      "venueCount": 23,
+      "venueCount": 24,
       "price": "$69.95"
     },
     {
@@ -128,7 +128,7 @@
       "name": "Maryland / Washington D.C.",
       "state": "District of Columbia",
       "city": "Washington",
-      "venueCount": 37,
+      "venueCount": 36,
       "price": "$59.95"
     },
     {
@@ -256,7 +256,7 @@
       "name": "Utah",
       "state": "Utah",
       "city": "Salt Lake City",
-      "venueCount": 146,
+      "venueCount": 147,
       "price": "$59.95"
     },
     {
