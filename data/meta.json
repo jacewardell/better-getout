@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-25T14:27:02.745Z",
+  "generatedAt": "2026-07-26T14:24:27.117Z",
   "marketCount": 33,
-  "venueCount": 1465,
+  "venueCount": 1464,
   "markets": [
     {
       "slug": "az",
@@ -256,7 +256,7 @@
       "name": "Utah",
       "state": "Utah",
       "city": "Salt Lake City",
-      "venueCount": 146,
+      "venueCount": 145,
       "price": "$59.95"
     },
     {
