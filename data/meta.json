@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-30T15:03:29.756Z",
+  "generatedAt": "2026-07-31T15:13:26.897Z",
   "marketCount": 33,
-  "venueCount": 1458,
+  "venueCount": 1459,
   "markets": [
     {
       "slug": "az",
@@ -16,7 +16,7 @@
       "name": "Arkansas",
       "state": "Arkansas",
       "city": "Little Rock",
-      "venueCount": 27,
+      "venueCount": 26,
       "price": "$44.95"
     },
     {
@@ -88,7 +88,7 @@
       "name": "Idaho",
       "state": "Idaho",
       "city": "Boise",
-      "venueCount": 65,
+      "venueCount": 64,
       "price": "$69.95"
     },
     {
@@ -144,7 +144,7 @@
       "name": "New England",
       "state": "Massachusetts",
       "city": "Boston",
-      "venueCount": 42,
+      "venueCount": 43,
       "price": "$54.95"
     },
     {
@@ -232,7 +232,7 @@
       "name": "Texas DFW",
       "state": "Texas",
       "city": "Dallas",
-      "venueCount": 58,
+      "venueCount": 59,
       "price": "$59.95"
     },
     {
@@ -256,7 +256,7 @@
       "name": "Utah",
       "state": "Utah",
       "city": "Salt Lake City",
-      "venueCount": 143,
+      "venueCount": 144,
       "price": "$54.95"
     },
     {
