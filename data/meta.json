@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-02T14:24:10.770Z",
+  "generatedAt": "2026-08-03T15:38:09.539Z",
   "marketCount": 33,
-  "venueCount": 1459,
+  "venueCount": 1458,
   "markets": [
     {
       "slug": "az",
@@ -264,7 +264,7 @@
       "name": "Washington",
       "state": "Washington",
       "city": "Olympia",
-      "venueCount": 38,
+      "venueCount": 37,
       "price": "$54.95"
     }
   ],
