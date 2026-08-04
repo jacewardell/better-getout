@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-03T15:38:09.539Z",
+  "generatedAt": "2026-08-04T15:16:48.324Z",
   "marketCount": 33,
-  "venueCount": 1458,
+  "venueCount": 1459,
   "markets": [
     {
       "slug": "az",
@@ -80,7 +80,7 @@
       "name": "Georgia",
       "state": "Georgia",
       "city": "Atlanta",
-      "venueCount": 18,
+      "venueCount": 17,
       "price": "$59.95"
     },
     {
@@ -112,7 +112,7 @@
       "name": "Kentucky",
       "state": "Kentucky",
       "city": "Frankfort",
-      "venueCount": 35,
+      "venueCount": 36,
       "price": "$44.95"
     },
     {
@@ -176,7 +176,7 @@
       "name": "Ohio",
       "state": "Ohio",
       "city": "Columbus",
-      "venueCount": 54,
+      "venueCount": 53,
       "price": "$54.95"
     },
     {
@@ -256,7 +256,7 @@
       "name": "Utah",
       "state": "Utah",
       "city": "Salt Lake City",
-      "venueCount": 144,
+      "venueCount": 145,
       "price": "$59.95"
     },
     {
@@ -264,7 +264,7 @@
       "name": "Washington",
       "state": "Washington",
       "city": "Olympia",
-      "venueCount": 37,
+      "venueCount": 38,
       "price": "$54.95"
     }
   ],
