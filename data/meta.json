@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-05T15:08:42.627Z",
+  "generatedAt": "2026-08-06T15:07:25.401Z",
   "marketCount": 33,
-  "venueCount": 1460,
+  "venueCount": 1464,
   "markets": [
     {
       "slug": "az",
@@ -16,7 +16,7 @@
       "name": "Arkansas",
       "state": "Arkansas",
       "city": "Little Rock",
-      "venueCount": 26,
+      "venueCount": 27,
       "price": "$49.95"
     },
     {
@@ -96,7 +96,7 @@
       "name": "Indiana",
       "state": "Indiana",
       "city": "Indianapolis",
-      "venueCount": 33,
+      "venueCount": 34,
       "price": "$39.95"
     },
     {
@@ -112,7 +112,7 @@
       "name": "Kentucky",
       "state": "Kentucky",
       "city": "Frankfort",
-      "venueCount": 35,
+      "venueCount": 36,
       "price": "$44.95"
     },
     {
@@ -184,7 +184,7 @@
       "name": "Oklahoma",
       "state": "Oklahoma",
       "city": "Oklahoma City",
-      "venueCount": 38,
+      "venueCount": 39,
       "price": "$54.95"
     },
     {
