@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-11T14:13:22.332Z",
+  "generatedAt": "2026-08-12T14:14:28.687Z",
   "marketCount": 33,
-  "venueCount": 1467,
+  "venueCount": 1474,
   "markets": [
     {
       "slug": "az",
@@ -72,7 +72,7 @@
       "name": "Florida South",
       "state": "Florida",
       "city": "Miami",
-      "venueCount": 33,
+      "venueCount": 32,
       "price": "$54.95"
     },
     {
@@ -96,7 +96,7 @@
       "name": "Indiana",
       "state": "Indiana",
       "city": "Indianapolis",
-      "venueCount": 34,
+      "venueCount": 35,
       "price": "$39.95"
     },
     {
@@ -128,7 +128,7 @@
       "name": "Maryland / Washington D.C.",
       "state": "District of Columbia",
       "city": "Washington",
-      "venueCount": 36,
+      "venueCount": 38,
       "price": "$59.95"
     },
     {
@@ -168,7 +168,7 @@
       "name": "North Carolina",
       "state": "North Carolina",
       "city": "Raleigh",
-      "venueCount": 41,
+      "venueCount": 42,
       "price": "$44.95"
     },
     {
@@ -176,7 +176,7 @@
       "name": "Ohio",
       "state": "Ohio",
       "city": "Columbus",
-      "venueCount": 53,
+      "venueCount": 54,
       "price": "$54.95"
     },
     {
@@ -216,7 +216,7 @@
       "name": "Tennessee",
       "state": "Tennessee",
       "city": "Nashville",
-      "venueCount": 43,
+      "venueCount": 44,
       "price": "$54.95"
     },
     {
@@ -232,7 +232,7 @@
       "name": "Texas DFW",
       "state": "Texas",
       "city": "Dallas",
-      "venueCount": 61,
+      "venueCount": 62,
       "price": "$64.95"
     },
     {
@@ -240,7 +240,7 @@
       "name": "Texas Houston",
       "state": "Texas",
       "city": "Houston",
-      "venueCount": 56,
+      "venueCount": 57,
       "price": "$69.95"
     },
     {
