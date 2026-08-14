@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-13T14:16:43.838Z",
+  "generatedAt": "2026-08-14T14:09:42.551Z",
   "marketCount": 33,
-  "venueCount": 1475,
+  "venueCount": 1474,
   "markets": [
     {
       "slug": "az",
@@ -32,7 +32,7 @@
       "name": "California Northern",
       "state": "California",
       "city": "Sacramento",
-      "venueCount": 52,
+      "venueCount": 50,
       "price": "$44.95"
     },
     {
@@ -232,7 +232,7 @@
       "name": "Texas DFW",
       "state": "Texas",
       "city": "Dallas",
-      "venueCount": 62,
+      "venueCount": 63,
       "price": "$64.95"
     },
     {
