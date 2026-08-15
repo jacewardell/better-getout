@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-14T14:09:42.551Z",
+  "generatedAt": "2026-08-15T13:23:30.091Z",
   "marketCount": 33,
-  "venueCount": 1474,
+  "venueCount": 1473,
   "markets": [
     {
       "slug": "az",
@@ -64,7 +64,7 @@
       "name": "Florida Emerald Coast",
       "state": "Florida",
       "city": "Destin",
-      "venueCount": 27,
+      "venueCount": 26,
       "price": "$49.95"
     },
     {
@@ -216,7 +216,7 @@
       "name": "Tennessee",
       "state": "Tennessee",
       "city": "Nashville",
-      "venueCount": 44,
+      "venueCount": 43,
       "price": "$54.95"
     },
     {
@@ -256,7 +256,7 @@
       "name": "Utah",
       "state": "Utah",
       "city": "Salt Lake City",
-      "venueCount": 148,
+      "venueCount": 149,
       "price": "$59.95"
     },
     {
