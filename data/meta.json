@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-15T13:23:30.091Z",
+  "generatedAt": "2026-08-16T13:24:29.448Z",
   "marketCount": 33,
-  "venueCount": 1473,
+  "venueCount": 1471,
   "markets": [
     {
       "slug": "az",
@@ -88,7 +88,7 @@
       "name": "Idaho",
       "state": "Idaho",
       "city": "Boise",
-      "venueCount": 65,
+      "venueCount": 63,
       "price": "$74.95"
     },
     {
