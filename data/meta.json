@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-17T13:32:50.775Z",
+  "generatedAt": "2026-08-18T13:35:25.080Z",
   "marketCount": 33,
-  "venueCount": 1471,
+  "venueCount": 1468,
   "markets": [
     {
       "slug": "az",
@@ -32,7 +32,7 @@
       "name": "California Northern",
       "state": "California",
       "city": "Sacramento",
-      "venueCount": 50,
+      "venueCount": 51,
       "price": "$44.95"
     },
     {
@@ -40,7 +40,7 @@
       "name": "California Southern",
       "state": "California",
       "city": "Los Angeles",
-      "venueCount": 42,
+      "venueCount": 41,
       "price": "$74.95"
     },
     {
@@ -72,7 +72,7 @@
       "name": "Florida South",
       "state": "Florida",
       "city": "Miami",
-      "venueCount": 32,
+      "venueCount": 31,
       "price": "$54.95"
     },
     {
@@ -232,7 +232,7 @@
       "name": "Texas DFW",
       "state": "Texas",
       "city": "Dallas",
-      "venueCount": 63,
+      "venueCount": 62,
       "price": "$64.95"
     },
     {
@@ -256,7 +256,7 @@
       "name": "Utah",
       "state": "Utah",
       "city": "Salt Lake City",
-      "venueCount": 149,
+      "venueCount": 148,
       "price": "$59.95"
     },
     {
