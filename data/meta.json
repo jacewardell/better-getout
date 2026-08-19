@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-18T13:35:25.080Z",
+  "generatedAt": "2026-08-19T13:36:59.061Z",
   "marketCount": 33,
-  "venueCount": 1468,
+  "venueCount": 1469,
   "markets": [
     {
       "slug": "az",
@@ -72,7 +72,7 @@
       "name": "Florida South",
       "state": "Florida",
       "city": "Miami",
-      "venueCount": 31,
+      "venueCount": 30,
       "price": "$54.95"
     },
     {
@@ -240,7 +240,7 @@
       "name": "Texas Houston",
       "state": "Texas",
       "city": "Houston",
-      "venueCount": 58,
+      "venueCount": 59,
       "price": "$69.95"
     },
     {
@@ -256,7 +256,7 @@
       "name": "Utah",
       "state": "Utah",
       "city": "Salt Lake City",
-      "venueCount": 148,
+      "venueCount": 149,
       "price": "$59.95"
     },
     {
