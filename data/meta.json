@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-19T13:36:59.061Z",
+  "generatedAt": "2026-08-20T13:39:04.322Z",
   "marketCount": 33,
-  "venueCount": 1469,
+  "venueCount": 1465,
   "markets": [
     {
       "slug": "az",
@@ -40,7 +40,7 @@
       "name": "California Southern",
       "state": "California",
       "city": "Los Angeles",
-      "venueCount": 41,
+      "venueCount": 40,
       "price": "$74.95"
     },
     {
@@ -256,7 +256,7 @@
       "name": "Utah",
       "state": "Utah",
       "city": "Salt Lake City",
-      "venueCount": 149,
+      "venueCount": 146,
       "price": "$59.95"
     },
     {
