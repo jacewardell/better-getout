@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-23T13:25:45.908Z",
+  "generatedAt": "2026-08-24T13:42:39.074Z",
   "marketCount": 33,
-  "venueCount": 1461,
+  "venueCount": 1462,
   "markets": [
     {
       "slug": "az",
@@ -176,7 +176,7 @@
       "name": "Ohio",
       "state": "Ohio",
       "city": "Columbus",
-      "venueCount": 52,
+      "venueCount": 53,
       "price": "$54.95"
     },
     {
