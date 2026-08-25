@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-24T13:42:39.074Z",
+  "generatedAt": "2026-08-25T13:41:17.015Z",
   "marketCount": 33,
-  "venueCount": 1462,
+  "venueCount": 1459,
   "markets": [
     {
       "slug": "az",
@@ -24,7 +24,7 @@
       "name": "California Central Valley",
       "state": "California",
       "city": "Fresno",
-      "venueCount": 24,
+      "venueCount": 23,
       "price": "$69.95"
     },
     {
@@ -40,7 +40,7 @@
       "name": "California Southern",
       "state": "California",
       "city": "Los Angeles",
-      "venueCount": 40,
+      "venueCount": 39,
       "price": "$74.95"
     },
     {
@@ -184,7 +184,7 @@
       "name": "Oklahoma",
       "state": "Oklahoma",
       "city": "Oklahoma City",
-      "venueCount": 39,
+      "venueCount": 38,
       "price": "$54.95"
     },
     {
@@ -216,7 +216,7 @@
       "name": "Tennessee",
       "state": "Tennessee",
       "city": "Nashville",
-      "venueCount": 43,
+      "venueCount": 42,
       "price": "$54.95"
     },
     {
@@ -256,7 +256,7 @@
       "name": "Utah",
       "state": "Utah",
       "city": "Salt Lake City",
-      "venueCount": 147,
+      "venueCount": 148,
       "price": "$59.95"
     },
     {
