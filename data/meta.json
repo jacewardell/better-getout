@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-25T13:41:17.015Z",
+  "generatedAt": "2026-08-26T13:45:36.053Z",
   "marketCount": 33,
-  "venueCount": 1459,
+  "venueCount": 1457,
   "markets": [
     {
       "slug": "az",
       "name": "Arizona",
       "state": "Arizona",
       "city": "Phoenix",
-      "venueCount": 56,
+      "venueCount": 57,
       "price": "$69.95"
     },
     {
@@ -88,7 +88,7 @@
       "name": "Idaho",
       "state": "Idaho",
       "city": "Boise",
-      "venueCount": 63,
+      "venueCount": 62,
       "price": "$74.95"
     },
     {
@@ -104,7 +104,7 @@
       "name": "Kansas City",
       "state": "Missouri",
       "city": "Kansas City",
-      "venueCount": 56,
+      "venueCount": 57,
       "price": "$64.95"
     },
     {
@@ -240,7 +240,7 @@
       "name": "Texas Houston",
       "state": "Texas",
       "city": "Houston",
-      "venueCount": 59,
+      "venueCount": 58,
       "price": "$69.95"
     },
     {
@@ -256,7 +256,7 @@
       "name": "Utah",
       "state": "Utah",
       "city": "Salt Lake City",
-      "venueCount": 148,
+      "venueCount": 146,
       "price": "$59.95"
     },
     {
