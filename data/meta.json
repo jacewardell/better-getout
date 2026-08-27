@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-26T13:45:36.053Z",
+  "generatedAt": "2026-08-27T22:42:11.390Z",
   "marketCount": 33,
-  "venueCount": 1457,
+  "venueCount": 1463,
   "markets": [
     {
       "slug": "az",
@@ -88,7 +88,7 @@
       "name": "Idaho",
       "state": "Idaho",
       "city": "Boise",
-      "venueCount": 62,
+      "venueCount": 63,
       "price": "$74.95"
     },
     {
@@ -128,7 +128,7 @@
       "name": "Maryland / Washington D.C.",
       "state": "District of Columbia",
       "city": "Washington",
-      "venueCount": 38,
+      "venueCount": 39,
       "price": "$59.95"
     },
     {
@@ -136,7 +136,7 @@
       "name": "Nebraska",
       "state": "Nebraska",
       "city": "Lincoln",
-      "venueCount": 37,
+      "venueCount": 38,
       "price": "$39.95"
     },
     {
@@ -232,7 +232,7 @@
       "name": "Texas DFW",
       "state": "Texas",
       "city": "Dallas",
-      "venueCount": 61,
+      "venueCount": 62,
       "price": "$64.95"
     },
     {
@@ -256,7 +256,7 @@
       "name": "Utah",
       "state": "Utah",
       "city": "Salt Lake City",
-      "venueCount": 146,
+      "venueCount": 148,
       "price": "$59.95"
     },
     {
