@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-27T22:42:11.390Z",
+  "generatedAt": "2026-08-28T22:48:47.236Z",
   "marketCount": 33,
-  "venueCount": 1463,
+  "venueCount": 1464,
   "markets": [
     {
       "slug": "az",
@@ -152,7 +152,7 @@
       "name": "New Jersey / Philadelphia",
       "state": "Pennsylvania",
       "city": "Philadelphia",
-      "venueCount": 41,
+      "venueCount": 42,
       "price": "$109.95"
     },
     {
