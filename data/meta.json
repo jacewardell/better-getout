@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-28T22:48:47.236Z",
+  "generatedAt": "2026-08-29T16:55:52.807Z",
   "marketCount": 33,
-  "venueCount": 1464,
+  "venueCount": 1463,
   "markets": [
     {
       "slug": "az",
@@ -240,7 +240,7 @@
       "name": "Texas Houston",
       "state": "Texas",
       "city": "Houston",
-      "venueCount": 58,
+      "venueCount": 57,
       "price": "$69.95"
     },
     {
