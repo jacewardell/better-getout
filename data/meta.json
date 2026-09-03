@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-02T16:55:45.835Z",
+  "generatedAt": "2026-09-03T16:45:49.200Z",
   "marketCount": 33,
-  "venueCount": 1465,
+  "venueCount": 1466,
   "markets": [
     {
       "slug": "az",
@@ -64,7 +64,7 @@
       "name": "Florida Emerald Coast",
       "state": "Florida",
       "city": "Destin",
-      "venueCount": 26,
+      "venueCount": 25,
       "price": "$49.95"
     },
     {
@@ -104,7 +104,7 @@
       "name": "Kansas City",
       "state": "Missouri",
       "city": "Kansas City",
-      "venueCount": 59,
+      "venueCount": 61,
       "price": "$64.95"
     },
     {
