@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-05T15:42:48.946Z",
+  "generatedAt": "2026-09-06T15:54:29.415Z",
   "marketCount": 33,
-  "venueCount": 1469,
+  "venueCount": 1467,
   "markets": [
     {
       "slug": "az",
@@ -32,7 +32,7 @@
       "name": "California Northern",
       "state": "California",
       "city": "Sacramento",
-      "venueCount": 52,
+      "venueCount": 51,
       "price": "$44.95"
     },
     {
@@ -144,7 +144,7 @@
       "name": "New England",
       "state": "Massachusetts",
       "city": "Boston",
-      "venueCount": 42,
+      "venueCount": 41,
       "price": "$59.95"
     },
     {
