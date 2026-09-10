@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-09T16:56:44.236Z",
+  "generatedAt": "2026-09-10T16:45:56.631Z",
   "marketCount": 33,
-  "venueCount": 1466,
+  "venueCount": 1465,
   "markets": [
     {
       "slug": "az",
@@ -40,7 +40,7 @@
       "name": "California Southern",
       "state": "California",
       "city": "Los Angeles",
-      "venueCount": 39,
+      "venueCount": 38,
       "price": "$69.95"
     },
     {
@@ -168,7 +168,7 @@
       "name": "North Carolina",
       "state": "North Carolina",
       "city": "Raleigh",
-      "venueCount": 42,
+      "venueCount": 41,
       "price": "$39.95"
     },
     {
@@ -232,7 +232,7 @@
       "name": "Texas DFW",
       "state": "Texas",
       "city": "Dallas",
-      "venueCount": 65,
+      "venueCount": 66,
       "price": "$64.95"
     },
     {
