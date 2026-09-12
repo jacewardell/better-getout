@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-11T16:49:24.933Z",
+  "generatedAt": "2026-09-12T15:56:30.665Z",
   "marketCount": 33,
-  "venueCount": 1470,
+  "venueCount": 1468,
   "markets": [
     {
       "slug": "az",
@@ -72,7 +72,7 @@
       "name": "Florida South",
       "state": "Florida",
       "city": "Miami",
-      "venueCount": 31,
+      "venueCount": 30,
       "price": "$49.95"
     },
     {
@@ -176,7 +176,7 @@
       "name": "Ohio",
       "state": "Ohio",
       "city": "Columbus",
-      "venueCount": 51,
+      "venueCount": 50,
       "price": "$49.95"
     },
     {
