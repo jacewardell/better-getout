@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-12T15:56:30.665Z",
+  "generatedAt": "2026-09-13T16:45:18.375Z",
   "marketCount": 33,
-  "venueCount": 1468,
+  "venueCount": 1467,
   "markets": [
     {
       "slug": "az",
@@ -64,7 +64,7 @@
       "name": "Florida Emerald Coast",
       "state": "Florida",
       "city": "Destin",
-      "venueCount": 26,
+      "venueCount": 27,
       "price": "$44.95"
     },
     {
@@ -120,7 +120,7 @@
       "name": "Las Vegas",
       "state": "Nevada",
       "city": "Las Vegas",
-      "venueCount": 39,
+      "venueCount": 38,
       "price": "$44.95"
     },
     {
@@ -224,7 +224,7 @@
       "name": "Texas Austin",
       "state": "Texas",
       "city": "Austin",
-      "venueCount": 39,
+      "venueCount": 38,
       "price": "$49.95"
     },
     {
