@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-14T18:16:26.045Z",
+  "generatedAt": "2026-09-15T17:24:33.061Z",
   "marketCount": 33,
-  "venueCount": 1467,
+  "venueCount": 1465,
   "markets": [
     {
       "slug": "az",
@@ -16,7 +16,7 @@
       "name": "Arkansas",
       "state": "Arkansas",
       "city": "Little Rock",
-      "venueCount": 27,
+      "venueCount": 26,
       "price": "$44.95"
     },
     {
@@ -216,7 +216,7 @@
       "name": "Tennessee",
       "state": "Tennessee",
       "city": "Nashville",
-      "venueCount": 43,
+      "venueCount": 42,
       "price": "$49.95"
     },
     {
