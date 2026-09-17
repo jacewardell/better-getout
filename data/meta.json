@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-16T17:24:00.713Z",
+  "generatedAt": "2026-09-17T17:23:08.156Z",
   "marketCount": 33,
-  "venueCount": 1469,
+  "venueCount": 1471,
   "markets": [
     {
       "slug": "az",
@@ -32,7 +32,7 @@
       "name": "California Northern",
       "state": "California",
       "city": "Sacramento",
-      "venueCount": 51,
+      "venueCount": 52,
       "price": "$39.95"
     },
     {
@@ -40,7 +40,7 @@
       "name": "California Southern",
       "state": "California",
       "city": "Los Angeles",
-      "venueCount": 38,
+      "venueCount": 39,
       "price": "$69.95"
     },
     {
