@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-17T17:23:08.156Z",
+  "generatedAt": "2026-09-18T16:49:19.255Z",
   "marketCount": 33,
-  "venueCount": 1471,
+  "venueCount": 1473,
   "markets": [
     {
       "slug": "az",
@@ -16,7 +16,7 @@
       "name": "Arkansas",
       "state": "Arkansas",
       "city": "Little Rock",
-      "venueCount": 26,
+      "venueCount": 27,
       "price": "$44.95"
     },
     {
@@ -80,7 +80,7 @@
       "name": "Georgia",
       "state": "Georgia",
       "city": "Atlanta",
-      "venueCount": 18,
+      "venueCount": 19,
       "price": "$54.95"
     },
     {
