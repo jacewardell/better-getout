@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-20T16:38:21.858Z",
+  "generatedAt": "2026-09-21T18:23:25.345Z",
   "marketCount": 33,
-  "venueCount": 1475,
+  "venueCount": 1472,
   "markets": [
     {
       "slug": "az",
@@ -16,7 +16,7 @@
       "name": "Arkansas",
       "state": "Arkansas",
       "city": "Little Rock",
-      "venueCount": 27,
+      "venueCount": 26,
       "price": "$44.95"
     },
     {
@@ -72,7 +72,7 @@
       "name": "Florida South",
       "state": "Florida",
       "city": "Miami",
-      "venueCount": 30,
+      "venueCount": 28,
       "price": "$49.95"
     },
     {
