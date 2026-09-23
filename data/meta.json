@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-22T17:26:57.686Z",
+  "generatedAt": "2026-09-23T17:35:47.906Z",
   "marketCount": 33,
-  "venueCount": 1478,
+  "venueCount": 1476,
   "markets": [
     {
       "slug": "az",
@@ -96,7 +96,7 @@
       "name": "Indiana",
       "state": "Indiana",
       "city": "Indianapolis",
-      "venueCount": 33,
+      "venueCount": 32,
       "price": "$34.95"
     },
     {
@@ -144,7 +144,7 @@
       "name": "New England",
       "state": "Massachusetts",
       "city": "Boston",
-      "venueCount": 41,
+      "venueCount": 40,
       "price": "$54.95"
     },
     {
