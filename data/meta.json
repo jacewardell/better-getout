@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-23T17:35:47.906Z",
+  "generatedAt": "2026-09-24T17:39:10.530Z",
   "marketCount": 33,
-  "venueCount": 1476,
+  "venueCount": 1477,
   "markets": [
     {
       "slug": "az",
@@ -16,7 +16,7 @@
       "name": "Arkansas",
       "state": "Arkansas",
       "city": "Little Rock",
-      "venueCount": 26,
+      "venueCount": 25,
       "price": "$44.95"
     },
     {
@@ -56,7 +56,7 @@
       "name": "Florida Central",
       "state": "Florida",
       "city": "Orlando",
-      "venueCount": 66,
+      "venueCount": 68,
       "price": "$69.95"
     },
     {
