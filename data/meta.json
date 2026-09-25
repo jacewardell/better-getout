@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-24T17:39:10.530Z",
+  "generatedAt": "2026-09-25T17:38:09.160Z",
   "marketCount": 33,
-  "venueCount": 1477,
+  "venueCount": 1480,
   "markets": [
     {
       "slug": "az",
@@ -56,7 +56,7 @@
       "name": "Florida Central",
       "state": "Florida",
       "city": "Orlando",
-      "venueCount": 68,
+      "venueCount": 70,
       "price": "$69.95"
     },
     {
@@ -104,7 +104,7 @@
       "name": "Kansas City",
       "state": "Missouri",
       "city": "Kansas City",
-      "venueCount": 62,
+      "venueCount": 63,
       "price": "$59.95"
     },
     {
