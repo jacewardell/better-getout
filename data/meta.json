@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-25T17:38:09.160Z",
+  "generatedAt": "2026-09-26T16:49:37.767Z",
   "marketCount": 33,
-  "venueCount": 1480,
+  "venueCount": 1479,
   "markets": [
     {
       "slug": "az",
@@ -48,7 +48,7 @@
       "name": "Colorado",
       "state": "Colorado",
       "city": "Denver",
-      "venueCount": 81,
+      "venueCount": 80,
       "price": "$44.95"
     },
     {
