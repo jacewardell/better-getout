@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-29T18:23:21.698Z",
+  "generatedAt": "2026-09-30T18:12:30.371Z",
   "marketCount": 33,
-  "venueCount": 1475,
+  "venueCount": 1455,
   "markets": [
     {
       "slug": "az",
@@ -16,7 +16,7 @@
       "name": "Arkansas",
       "state": "Arkansas",
       "city": "Little Rock",
-      "venueCount": 24,
+      "venueCount": 23,
       "price": "$44.95"
     },
     {
@@ -24,7 +24,7 @@
       "name": "California Central Valley",
       "state": "California",
       "city": "Fresno",
-      "venueCount": 23,
+      "venueCount": 22,
       "price": "$64.95"
     },
     {
@@ -72,7 +72,7 @@
       "name": "Florida South",
       "state": "Florida",
       "city": "Miami",
-      "venueCount": 28,
+      "venueCount": 27,
       "price": "$49.95"
     },
     {
@@ -80,7 +80,7 @@
       "name": "Georgia",
       "state": "Georgia",
       "city": "Atlanta",
-      "venueCount": 19,
+      "venueCount": 18,
       "price": "$54.95"
     },
     {
@@ -88,7 +88,7 @@
       "name": "Idaho",
       "state": "Idaho",
       "city": "Boise",
-      "venueCount": 62,
+      "venueCount": 61,
       "price": "$69.95"
     },
     {
@@ -96,7 +96,7 @@
       "name": "Indiana",
       "state": "Indiana",
       "city": "Indianapolis",
-      "venueCount": 32,
+      "venueCount": 31,
       "price": "$34.95"
     },
     {
@@ -104,7 +104,7 @@
       "name": "Kansas City",
       "state": "Missouri",
       "city": "Kansas City",
-      "venueCount": 61,
+      "venueCount": 60,
       "price": "$59.95"
     },
     {
@@ -112,7 +112,7 @@
       "name": "Kentucky",
       "state": "Kentucky",
       "city": "Frankfort",
-      "venueCount": 36,
+      "venueCount": 35,
       "price": "$39.95"
     },
     {
@@ -128,7 +128,7 @@
       "name": "Maryland / Washington D.C.",
       "state": "District of Columbia",
       "city": "Washington",
-      "venueCount": 39,
+      "venueCount": 37,
       "price": "$54.95"
     },
     {
@@ -152,7 +152,7 @@
       "name": "New Jersey / Philadelphia",
       "state": "Pennsylvania",
       "city": "Philadelphia",
-      "venueCount": 41,
+      "venueCount": 40,
       "price": "$104.95"
     },
     {
@@ -160,7 +160,7 @@
       "name": "New Mexico / West Texas",
       "state": "Texas",
       "city": "El Paso",
-      "venueCount": 28,
+      "venueCount": 27,
       "price": "$34.95"
     },
     {
@@ -168,7 +168,7 @@
       "name": "North Carolina",
       "state": "North Carolina",
       "city": "Raleigh",
-      "venueCount": 41,
+      "venueCount": 40,
       "price": "$39.95"
     },
     {
@@ -176,7 +176,7 @@
       "name": "Ohio",
       "state": "Ohio",
       "city": "Columbus",
-      "venueCount": 49,
+      "venueCount": 48,
       "price": "$49.95"
     },
     {
@@ -184,7 +184,7 @@
       "name": "Oklahoma",
       "state": "Oklahoma",
       "city": "Oklahoma City",
-      "venueCount": 38,
+      "venueCount": 37,
       "price": "$49.95"
     },
     {
@@ -200,7 +200,7 @@
       "name": "Pennsylvania Pittsburgh",
       "state": "Pennsylvania",
       "city": "Pittsburgh",
-      "venueCount": 25,
+      "venueCount": 24,
       "price": "$44.95"
     },
     {
@@ -208,7 +208,7 @@
       "name": "St. Louis",
       "state": "Missouri",
       "city": "Saint Louis",
-      "venueCount": 21,
+      "venueCount": 20,
       "price": "$49.95"
     },
     {
@@ -216,7 +216,7 @@
       "name": "Tennessee",
       "state": "Tennessee",
       "city": "Nashville",
-      "venueCount": 42,
+      "venueCount": 41,
       "price": "$49.95"
     },
     {
@@ -232,7 +232,7 @@
       "name": "Texas DFW",
       "state": "Texas",
       "city": "Dallas",
-      "venueCount": 74,
+      "venueCount": 73,
       "price": "$64.95"
     },
     {
@@ -248,7 +248,7 @@
       "name": "Texas San Antonio",
       "state": "Texas",
       "city": "San Antonio",
-      "venueCount": 36,
+      "venueCount": 35,
       "price": "$69.95"
     },
     {
