@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T18:12:30.371Z",
+  "generatedAt": "2026-10-01T18:38:01.700Z",
   "marketCount": 33,
   "venueCount": 1455,
   "markets": [
@@ -8,7 +8,7 @@
       "name": "Arizona",
       "state": "Arizona",
       "city": "Phoenix",
-      "venueCount": 57,
+      "venueCount": 56,
       "price": "$64.95"
     },
     {
@@ -88,7 +88,7 @@
       "name": "Idaho",
       "state": "Idaho",
       "city": "Boise",
-      "venueCount": 61,
+      "venueCount": 62,
       "price": "$69.95"
     },
     {
