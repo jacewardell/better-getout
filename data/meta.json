@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-06T18:42:22.649Z",
+  "generatedAt": "2026-10-07T19:08:43.928Z",
   "marketCount": 33,
-  "venueCount": 1461,
+  "venueCount": 1463,
   "markets": [
     {
       "slug": "az",
@@ -176,7 +176,7 @@
       "name": "Ohio",
       "state": "Ohio",
       "city": "Columbus",
-      "venueCount": 49,
+      "venueCount": 50,
       "price": "$54.95"
     },
     {
@@ -256,7 +256,7 @@
       "name": "Utah",
       "state": "Utah",
       "city": "Salt Lake City",
-      "venueCount": 151,
+      "venueCount": 152,
       "price": "$59.95"
     },
     {
