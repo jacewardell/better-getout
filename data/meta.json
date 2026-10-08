@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-07T19:08:43.928Z",
+  "generatedAt": "2026-10-08T19:04:50.464Z",
   "marketCount": 33,
-  "venueCount": 1463,
+  "venueCount": 1465,
   "markets": [
     {
       "slug": "az",
@@ -88,7 +88,7 @@
       "name": "Idaho",
       "state": "Idaho",
       "city": "Boise",
-      "venueCount": 64,
+      "venueCount": 65,
       "price": "$74.95"
     },
     {
@@ -232,7 +232,7 @@
       "name": "Texas DFW",
       "state": "Texas",
       "city": "Dallas",
-      "venueCount": 75,
+      "venueCount": 76,
       "price": "$69.95"
     },
     {
