@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-08T19:04:50.464Z",
+  "generatedAt": "2026-10-09T18:35:20.774Z",
   "marketCount": 33,
-  "venueCount": 1465,
+  "venueCount": 1466,
   "markets": [
     {
       "slug": "az",
@@ -80,7 +80,7 @@
       "name": "Georgia",
       "state": "Georgia",
       "city": "Atlanta",
-      "venueCount": 18,
+      "venueCount": 19,
       "price": "$59.95"
     },
     {
