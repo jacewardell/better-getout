@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-11T17:51:17.845Z",
+  "generatedAt": "2026-10-12T21:28:48.256Z",
   "marketCount": 33,
-  "venueCount": 1465,
+  "venueCount": 1466,
   "markets": [
     {
       "slug": "az",
@@ -64,7 +64,7 @@
       "name": "Florida Emerald Coast",
       "state": "Florida",
       "city": "Destin",
-      "venueCount": 26,
+      "venueCount": 27,
       "price": "$49.95"
     },
     {
