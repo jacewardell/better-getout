@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-12T21:28:48.256Z",
+  "generatedAt": "2026-10-13T19:39:48.839Z",
   "marketCount": 33,
-  "venueCount": 1466,
+  "venueCount": 1467,
   "markets": [
     {
       "slug": "az",
@@ -144,7 +144,7 @@
       "name": "New England",
       "state": "Massachusetts",
       "city": "Boston",
-      "venueCount": 40,
+      "venueCount": 41,
       "price": "$59.95"
     },
     {
