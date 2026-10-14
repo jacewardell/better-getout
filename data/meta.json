@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-13T19:39:48.839Z",
+  "generatedAt": "2026-10-14T17:41:32.039Z",
   "marketCount": 33,
-  "venueCount": 1467,
+  "venueCount": 1470,
   "markets": [
     {
       "slug": "az",
@@ -48,7 +48,7 @@
       "name": "Colorado",
       "state": "Colorado",
       "city": "Denver",
-      "venueCount": 80,
+      "venueCount": 81,
       "price": "$49.95"
     },
     {
@@ -56,7 +56,7 @@
       "name": "Florida Central",
       "state": "Florida",
       "city": "Orlando",
-      "venueCount": 70,
+      "venueCount": 72,
       "price": "$74.95"
     },
     {
