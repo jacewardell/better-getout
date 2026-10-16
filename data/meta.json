@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T17:30:25.134Z",
+  "generatedAt": "2026-10-16T17:05:20.071Z",
   "marketCount": 33,
   "venueCount": 1475,
   "markets": [
@@ -136,7 +136,7 @@
       "name": "Nebraska",
       "state": "Nebraska",
       "city": "Lincoln",
-      "venueCount": 37,
+      "venueCount": 38,
       "price": "$39.95"
     },
     {
@@ -224,7 +224,7 @@
       "name": "Texas Austin",
       "state": "Texas",
       "city": "Austin",
-      "venueCount": 40,
+      "venueCount": 41,
       "price": "$54.95"
     },
     {
@@ -232,7 +232,7 @@
       "name": "Texas DFW",
       "state": "Texas",
       "city": "Dallas",
-      "venueCount": 78,
+      "venueCount": 76,
       "price": "$69.95"
     },
     {
