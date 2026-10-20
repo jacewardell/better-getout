@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T18:54:30.625Z",
+  "generatedAt": "2026-10-20T17:37:54.874Z",
   "marketCount": 33,
   "venueCount": 1477,
   "markets": [
@@ -88,7 +88,7 @@
       "name": "Idaho",
       "state": "Idaho",
       "city": "Boise",
-      "venueCount": 66,
+      "venueCount": 67,
       "price": "$74.95"
     },
     {
@@ -256,7 +256,7 @@
       "name": "Utah",
       "state": "Utah",
       "city": "Salt Lake City",
-      "venueCount": 153,
+      "venueCount": 152,
       "price": "$59.95"
     },
     {
