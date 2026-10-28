@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-27T18:29:05.845Z",
+  "generatedAt": "2026-10-28T18:34:29.598Z",
   "marketCount": 33,
-  "venueCount": 1493,
+  "venueCount": 1498,
   "markets": [
     {
       "slug": "az",
@@ -56,7 +56,7 @@
       "name": "Florida Central",
       "state": "Florida",
       "city": "Orlando",
-      "venueCount": 73,
+      "venueCount": 74,
       "price": "$74.95"
     },
     {
@@ -120,7 +120,7 @@
       "name": "Las Vegas",
       "state": "Nevada",
       "city": "Las Vegas",
-      "venueCount": 42,
+      "venueCount": 43,
       "price": "$49.95"
     },
     {
@@ -136,7 +136,7 @@
       "name": "Nebraska",
       "state": "Nebraska",
       "city": "Lincoln",
-      "venueCount": 38,
+      "venueCount": 39,
       "price": "$39.95"
     },
     {
@@ -232,7 +232,7 @@
       "name": "Texas DFW",
       "state": "Texas",
       "city": "Dallas",
-      "venueCount": 77,
+      "venueCount": 78,
       "price": "$69.95"
     },
     {
@@ -256,7 +256,7 @@
       "name": "Utah",
       "state": "Utah",
       "city": "Salt Lake City",
-      "venueCount": 151,
+      "venueCount": 152,
       "price": "$59.95"
     },
     {
