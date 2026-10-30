@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-29T18:44:03.554Z",
+  "generatedAt": "2026-10-30T18:20:44.578Z",
   "marketCount": 33,
-  "venueCount": 1497,
+  "venueCount": 1499,
   "markets": [
     {
       "slug": "az",
@@ -80,7 +80,7 @@
       "name": "Georgia",
       "state": "Georgia",
       "city": "Atlanta",
-      "venueCount": 20,
+      "venueCount": 21,
       "price": "$59.95"
     },
     {
@@ -128,7 +128,7 @@
       "name": "Maryland / Washington D.C.",
       "state": "District of Columbia",
       "city": "Washington",
-      "venueCount": 36,
+      "venueCount": 35,
       "price": "$59.95"
     },
     {
@@ -256,7 +256,7 @@
       "name": "Utah",
       "state": "Utah",
       "city": "Salt Lake City",
-      "venueCount": 152,
+      "venueCount": 154,
       "price": "$59.95"
     },
     {
