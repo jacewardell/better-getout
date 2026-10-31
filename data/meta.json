@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-30T18:20:44.578Z",
+  "generatedAt": "2026-10-31T17:27:13.089Z",
   "marketCount": 33,
-  "venueCount": 1499,
+  "venueCount": 1384,
   "markets": [
     {
       "slug": "az",
       "name": "Arizona",
       "state": "Arizona",
       "city": "Phoenix",
-      "venueCount": 59,
+      "venueCount": 60,
       "price": "$69.95"
     },
     {
@@ -40,7 +40,7 @@
       "name": "California Southern",
       "state": "California",
       "city": "Los Angeles",
-      "venueCount": 39,
+      "venueCount": 0,
       "price": "$74.95"
     },
     {
@@ -48,7 +48,7 @@
       "name": "Colorado",
       "state": "Colorado",
       "city": "Denver",
-      "venueCount": 80,
+      "venueCount": 79,
       "price": "$49.95"
     },
     {
@@ -56,7 +56,7 @@
       "name": "Florida Central",
       "state": "Florida",
       "city": "Orlando",
-      "venueCount": 74,
+      "venueCount": 0,
       "price": "$74.95"
     },
     {
@@ -88,7 +88,7 @@
       "name": "Idaho",
       "state": "Idaho",
       "city": "Boise",
-      "venueCount": 69,
+      "venueCount": 71,
       "price": "$74.95"
     },
     {
@@ -148,14 +148,6 @@
       "price": "$59.95"
     },
     {
-      "slug": "nj-ph",
-      "name": "New Jersey / Philadelphia",
-      "state": "Pennsylvania",
-      "city": "Philadelphia",
-      "venueCount": 40,
-      "price": "$109.95"
-    },
-    {
       "slug": "nm-wtx",
       "name": "New Mexico / West Texas",
       "state": "Texas",
@@ -196,8 +188,16 @@
       "price": "$59.95"
     },
     {
+      "slug": "nj-ph",
+      "name": "Philadelphia",
+      "state": "Pennsylvania",
+      "city": "Philadelphia",
+      "venueCount": 34,
+      "price": "$109.95"
+    },
+    {
       "slug": "pa-pb",
-      "name": "Pennsylvania Pittsburgh",
+      "name": "Pittsburgh",
       "state": "Pennsylvania",
       "city": "Pittsburgh",
       "venueCount": 25,
@@ -256,7 +256,7 @@
       "name": "Utah",
       "state": "Utah",
       "city": "Salt Lake City",
-      "venueCount": 154,
+      "venueCount": 156,
       "price": "$59.95"
     },
     {
