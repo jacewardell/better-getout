@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-31T17:27:13.089Z",
-  "marketCount": 33,
+  "generatedAt": "2026-11-01T18:12:11.364Z",
+  "marketCount": 31,
   "venueCount": 1384,
   "markets": [
     {
@@ -36,28 +36,12 @@
       "price": "$44.95"
     },
     {
-      "slug": "ca-s",
-      "name": "California Southern",
-      "state": "California",
-      "city": "Los Angeles",
-      "venueCount": 0,
-      "price": "$74.95"
-    },
-    {
       "slug": "co",
       "name": "Colorado",
       "state": "Colorado",
       "city": "Denver",
       "venueCount": 79,
       "price": "$49.95"
-    },
-    {
-      "slug": "fl-c",
-      "name": "Florida Central",
-      "state": "Florida",
-      "city": "Orlando",
-      "venueCount": 0,
-      "price": "$74.95"
     },
     {
       "slug": "ec",
@@ -256,7 +240,7 @@
       "name": "Utah",
       "state": "Utah",
       "city": "Salt Lake City",
-      "venueCount": 156,
+      "venueCount": 157,
       "price": "$59.95"
     },
     {
@@ -264,7 +248,7 @@
       "name": "Washington",
       "state": "Washington",
       "city": "Olympia",
-      "venueCount": 37,
+      "venueCount": 36,
       "price": "$54.95"
     }
   ],
