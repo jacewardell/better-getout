@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-01T18:12:11.364Z",
-  "marketCount": 31,
-  "venueCount": 1384,
+  "generatedAt": "2026-11-02T22:00:34.704Z",
+  "marketCount": 35,
+  "venueCount": 1501,
   "markets": [
     {
       "slug": "az",
@@ -9,7 +9,7 @@
       "state": "Arizona",
       "city": "Phoenix",
       "venueCount": 60,
-      "price": "$69.95"
+      "price": "$64.95"
     },
     {
       "slug": "ar",
@@ -17,7 +17,7 @@
       "state": "Arkansas",
       "city": "Little Rock",
       "venueCount": 24,
-      "price": "$49.95"
+      "price": "$44.95"
     },
     {
       "slug": "ca-cv",
@@ -25,7 +25,15 @@
       "state": "California",
       "city": "Fresno",
       "venueCount": 23,
-      "price": "$69.95"
+      "price": "$64.95"
+    },
+    {
+      "slug": "california-los-angeles",
+      "name": "California Los Angeles",
+      "state": "California",
+      "city": "Los Angeles",
+      "venueCount": 25,
+      "price": "$89.95"
     },
     {
       "slug": "ca-n",
@@ -33,7 +41,15 @@
       "state": "California",
       "city": "Sacramento",
       "venueCount": 54,
-      "price": "$44.95"
+      "price": "$39.95"
+    },
+    {
+      "slug": "san-diego",
+      "name": "California San Diego",
+      "state": "California",
+      "city": "San Diego",
+      "venueCount": 16,
+      "price": "$49.95"
     },
     {
       "slug": "co",
@@ -41,7 +57,7 @@
       "state": "Colorado",
       "city": "Denver",
       "venueCount": 79,
-      "price": "$49.95"
+      "price": "$44.95"
     },
     {
       "slug": "ec",
@@ -49,15 +65,31 @@
       "state": "Florida",
       "city": "Destin",
       "venueCount": 27,
-      "price": "$49.95"
+      "price": "$44.95"
+    },
+    {
+      "slug": "florida-orlando",
+      "name": "Florida Orlando",
+      "state": "Florida",
+      "city": "Orlando",
+      "venueCount": 32,
+      "price": "$64.95"
     },
     {
       "slug": "fl-s",
       "name": "Florida South",
       "state": "Florida",
       "city": "Miami",
-      "venueCount": 28,
-      "price": "$54.95"
+      "venueCount": 27,
+      "price": "$49.95"
+    },
+    {
+      "slug": "tampa-bay",
+      "name": "Florida Tampa / St. Pete",
+      "state": "Florida",
+      "city": "Tampa",
+      "venueCount": 42,
+      "price": "$49.95"
     },
     {
       "slug": "ga",
@@ -65,7 +97,7 @@
       "state": "Georgia",
       "city": "Atlanta",
       "venueCount": 21,
-      "price": "$59.95"
+      "price": "$54.95"
     },
     {
       "slug": "id",
@@ -73,7 +105,7 @@
       "state": "Idaho",
       "city": "Boise",
       "venueCount": 71,
-      "price": "$74.95"
+      "price": "$64.95"
     },
     {
       "slug": "in",
@@ -81,7 +113,7 @@
       "state": "Indiana",
       "city": "Indianapolis",
       "venueCount": 31,
-      "price": "$39.95"
+      "price": "$34.95"
     },
     {
       "slug": "mo",
@@ -89,7 +121,7 @@
       "state": "Missouri",
       "city": "Kansas City",
       "venueCount": 61,
-      "price": "$64.95"
+      "price": "$59.95"
     },
     {
       "slug": "kt",
@@ -97,7 +129,7 @@
       "state": "Kentucky",
       "city": "Frankfort",
       "venueCount": 36,
-      "price": "$44.95"
+      "price": "$39.95"
     },
     {
       "slug": "lv",
@@ -105,7 +137,7 @@
       "state": "Nevada",
       "city": "Las Vegas",
       "venueCount": 43,
-      "price": "$49.95"
+      "price": "$44.95"
     },
     {
       "slug": "mw-dc",
@@ -113,7 +145,7 @@
       "state": "District of Columbia",
       "city": "Washington",
       "venueCount": 35,
-      "price": "$59.95"
+      "price": "$54.95"
     },
     {
       "slug": "nb",
@@ -121,15 +153,15 @@
       "state": "Nebraska",
       "city": "Lincoln",
       "venueCount": 39,
-      "price": "$39.95"
+      "price": "$34.95"
     },
     {
       "slug": "ne",
       "name": "New England",
       "state": "Massachusetts",
       "city": "Boston",
-      "venueCount": 41,
-      "price": "$59.95"
+      "venueCount": 42,
+      "price": "$49.95"
     },
     {
       "slug": "nm-wtx",
@@ -137,7 +169,7 @@
       "state": "Texas",
       "city": "El Paso",
       "venueCount": 28,
-      "price": "$39.95"
+      "price": "$34.95"
     },
     {
       "slug": "nc",
@@ -145,7 +177,7 @@
       "state": "North Carolina",
       "city": "Raleigh",
       "venueCount": 40,
-      "price": "$44.95"
+      "price": "$39.95"
     },
     {
       "slug": "oh",
@@ -153,15 +185,15 @@
       "state": "Ohio",
       "city": "Columbus",
       "venueCount": 50,
-      "price": "$54.95"
+      "price": "$49.95"
     },
     {
       "slug": "ok",
       "name": "Oklahoma",
       "state": "Oklahoma",
       "city": "Oklahoma City",
-      "venueCount": 38,
-      "price": "$54.95"
+      "venueCount": 37,
+      "price": "$49.95"
     },
     {
       "slug": "or",
@@ -169,7 +201,7 @@
       "state": "Oregon",
       "city": "Salem",
       "venueCount": 32,
-      "price": "$59.95"
+      "price": "$54.95"
     },
     {
       "slug": "nj-ph",
@@ -177,15 +209,15 @@
       "state": "Pennsylvania",
       "city": "Philadelphia",
       "venueCount": 34,
-      "price": "$109.95"
+      "price": "$69.95"
     },
     {
       "slug": "pa-pb",
       "name": "Pittsburgh",
       "state": "Pennsylvania",
       "city": "Pittsburgh",
-      "venueCount": 25,
-      "price": "$49.95"
+      "venueCount": 27,
+      "price": "$44.95"
     },
     {
       "slug": "stl",
@@ -193,14 +225,14 @@
       "state": "Missouri",
       "city": "Saint Louis",
       "venueCount": 21,
-      "price": "$54.95"
+      "price": "$49.95"
     },
     {
       "slug": "tn",
       "name": "Tennessee",
       "state": "Tennessee",
       "city": "Nashville",
-      "venueCount": 42,
+      "venueCount": 44,
       "price": "$54.95"
     },
     {
@@ -209,15 +241,15 @@
       "state": "Texas",
       "city": "Austin",
       "venueCount": 41,
-      "price": "$54.95"
+      "price": "$49.95"
     },
     {
       "slug": "tx-dfw",
       "name": "Texas DFW",
       "state": "Texas",
       "city": "Dallas",
-      "venueCount": 78,
-      "price": "$69.95"
+      "venueCount": 77,
+      "price": "$64.95"
     },
     {
       "slug": "tx-hou",
@@ -225,7 +257,7 @@
       "state": "Texas",
       "city": "Houston",
       "venueCount": 53,
-      "price": "$69.95"
+      "price": "$64.95"
     },
     {
       "slug": "tx-san",
@@ -233,7 +265,7 @@
       "state": "Texas",
       "city": "San Antonio",
       "venueCount": 36,
-      "price": "$74.95"
+      "price": "$69.95"
     },
     {
       "slug": "ut",
@@ -241,7 +273,7 @@
       "state": "Utah",
       "city": "Salt Lake City",
       "venueCount": 157,
-      "price": "$59.95"
+      "price": "$54.95"
     },
     {
       "slug": "wa",
@@ -249,7 +281,7 @@
       "state": "Washington",
       "city": "Olympia",
       "venueCount": 36,
-      "price": "$54.95"
+      "price": "$49.95"
     }
   ],
   "categories": [
