@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T19:54:10.257Z",
+  "generatedAt": "2026-11-04T20:09:02.380Z",
   "marketCount": 35,
   "venueCount": 1501,
   "markets": [
@@ -89,7 +89,7 @@
       "state": "Florida",
       "city": "Tampa",
       "venueCount": 42,
-      "price": "$49.95"
+      "price": "$44.95"
     },
     {
       "slug": "ga",
