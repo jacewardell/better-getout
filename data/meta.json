@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-05T20:25:26.111Z",
+  "generatedAt": "2026-11-06T19:46:26.691Z",
   "marketCount": 35,
-  "venueCount": 1508,
+  "venueCount": 1512,
   "markets": [
     {
       "slug": "az",
       "name": "Arizona",
       "state": "Arizona",
       "city": "Phoenix",
-      "venueCount": 60,
+      "venueCount": 61,
       "price": "$64.95"
     },
     {
@@ -32,7 +32,7 @@
       "name": "California Los Angeles",
       "state": "California",
       "city": "Los Angeles",
-      "venueCount": 25,
+      "venueCount": 26,
       "price": "$74.95"
     },
     {
@@ -88,7 +88,7 @@
       "name": "Florida Tampa / St. Pete",
       "state": "Florida",
       "city": "Tampa",
-      "venueCount": 42,
+      "venueCount": 43,
       "price": "$44.95"
     },
     {
@@ -136,7 +136,7 @@
       "name": "Las Vegas",
       "state": "Nevada",
       "city": "Las Vegas",
-      "venueCount": 43,
+      "venueCount": 44,
       "price": "$44.95"
     },
     {
