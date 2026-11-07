@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-06T19:46:26.691Z",
+  "generatedAt": "2026-11-07T17:55:04.395Z",
   "marketCount": 35,
-  "venueCount": 1512,
+  "venueCount": 1514,
   "markets": [
     {
       "slug": "az",
@@ -32,7 +32,7 @@
       "name": "California Los Angeles",
       "state": "California",
       "city": "Los Angeles",
-      "venueCount": 26,
+      "venueCount": 27,
       "price": "$74.95"
     },
     {
@@ -176,7 +176,7 @@
       "name": "North Carolina",
       "state": "North Carolina",
       "city": "Raleigh",
-      "venueCount": 40,
+      "venueCount": 41,
       "price": "$39.95"
     },
     {
