@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-08T18:09:32.633Z",
+  "generatedAt": "2026-11-09T22:47:32.738Z",
   "marketCount": 35,
-  "venueCount": 1513,
+  "venueCount": 1512,
   "markets": [
     {
       "slug": "az",
@@ -248,7 +248,7 @@
       "name": "Texas DFW",
       "state": "Texas",
       "city": "Dallas",
-      "venueCount": 76,
+      "venueCount": 75,
       "price": "$64.95"
     },
     {
