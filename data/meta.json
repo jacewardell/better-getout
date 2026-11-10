@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T22:47:32.738Z",
+  "generatedAt": "2026-11-10T20:06:32.274Z",
   "marketCount": 35,
   "venueCount": 1512,
   "markets": [
@@ -56,7 +56,7 @@
       "name": "Colorado",
       "state": "Colorado",
       "city": "Denver",
-      "venueCount": 79,
+      "venueCount": 77,
       "price": "$44.95"
     },
     {
@@ -200,7 +200,7 @@
       "name": "Oregon",
       "state": "Oregon",
       "city": "Salem",
-      "venueCount": 31,
+      "venueCount": 32,
       "price": "$54.95"
     },
     {
@@ -248,7 +248,7 @@
       "name": "Texas DFW",
       "state": "Texas",
       "city": "Dallas",
-      "venueCount": 75,
+      "venueCount": 76,
       "price": "$64.95"
     },
     {
