@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-10T20:06:32.274Z",
+  "generatedAt": "2026-11-11T19:56:33.692Z",
   "marketCount": 35,
-  "venueCount": 1512,
+  "venueCount": 1516,
   "markets": [
     {
       "slug": "az",
@@ -104,7 +104,7 @@
       "name": "Idaho",
       "state": "Idaho",
       "city": "Boise",
-      "venueCount": 71,
+      "venueCount": 72,
       "price": "$64.95"
     },
     {
@@ -112,7 +112,7 @@
       "name": "Indiana",
       "state": "Indiana",
       "city": "Indianapolis",
-      "venueCount": 31,
+      "venueCount": 32,
       "price": "$34.95"
     },
     {
@@ -120,7 +120,7 @@
       "name": "Kansas City",
       "state": "Missouri",
       "city": "Kansas City",
-      "venueCount": 61,
+      "venueCount": 63,
       "price": "$59.95"
     },
     {
