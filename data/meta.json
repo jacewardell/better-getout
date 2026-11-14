@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T20:10:07.235Z",
+  "generatedAt": "2026-11-14T18:35:53.912Z",
   "marketCount": 35,
   "venueCount": 1516,
   "markets": [
@@ -80,7 +80,7 @@
       "name": "Florida South",
       "state": "Florida",
       "city": "Miami",
-      "venueCount": 27,
+      "venueCount": 26,
       "price": "$49.95"
     },
     {
@@ -88,7 +88,7 @@
       "name": "Florida Tampa / St. Pete",
       "state": "Florida",
       "city": "Tampa",
-      "venueCount": 43,
+      "venueCount": 44,
       "price": "$44.95"
     },
     {
