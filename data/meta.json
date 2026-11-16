@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-15T19:11:58.396Z",
+  "generatedAt": "2026-11-16T22:39:30.742Z",
   "marketCount": 35,
-  "venueCount": 1516,
+  "venueCount": 1517,
   "markets": [
     {
       "slug": "az",
@@ -264,7 +264,7 @@
       "name": "Texas San Antonio",
       "state": "Texas",
       "city": "San Antonio",
-      "venueCount": 36,
+      "venueCount": 37,
       "price": "$69.95"
     },
     {
