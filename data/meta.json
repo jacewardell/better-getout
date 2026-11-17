@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-16T22:39:30.742Z",
+  "generatedAt": "2026-11-17T21:27:36.444Z",
   "marketCount": 35,
-  "venueCount": 1517,
+  "venueCount": 1518,
   "markets": [
     {
       "slug": "az",
@@ -120,7 +120,7 @@
       "name": "Kansas City",
       "state": "Missouri",
       "city": "Kansas City",
-      "venueCount": 63,
+      "venueCount": 64,
       "price": "$59.95"
     },
     {
