@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-17T21:27:36.444Z",
+  "generatedAt": "2026-11-18T21:00:13.351Z",
   "marketCount": 35,
-  "venueCount": 1518,
+  "venueCount": 1517,
   "markets": [
     {
       "slug": "az",
@@ -248,7 +248,7 @@
       "name": "Texas DFW",
       "state": "Texas",
       "city": "Dallas",
-      "venueCount": 76,
+      "venueCount": 74,
       "price": "$64.95"
     },
     {
@@ -272,7 +272,7 @@
       "name": "Utah",
       "state": "Utah",
       "city": "Salt Lake City",
-      "venueCount": 157,
+      "venueCount": 158,
       "price": "$54.95"
     },
     {
