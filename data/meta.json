@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-19T21:05:16.338Z",
+  "generatedAt": "2026-11-20T20:51:32.305Z",
   "marketCount": 35,
-  "venueCount": 1518,
+  "venueCount": 1522,
   "markets": [
     {
       "slug": "az",
@@ -32,7 +32,7 @@
       "name": "California Los Angeles",
       "state": "California",
       "city": "Los Angeles",
-      "venueCount": 27,
+      "venueCount": 28,
       "price": "$74.95"
     },
     {
@@ -48,7 +48,7 @@
       "name": "California San Diego",
       "state": "California",
       "city": "San Diego",
-      "venueCount": 21,
+      "venueCount": 23,
       "price": "$49.95"
     },
     {
@@ -104,7 +104,7 @@
       "name": "Idaho",
       "state": "Idaho",
       "city": "Boise",
-      "venueCount": 72,
+      "venueCount": 73,
       "price": "$64.95"
     },
     {
