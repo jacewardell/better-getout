@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-24T00:29:54.808Z",
+  "generatedAt": "2026-11-24T22:50:51.504Z",
   "marketCount": 35,
-  "venueCount": 1527,
+  "venueCount": 1526,
   "markets": [
     {
       "slug": "az",
@@ -152,7 +152,7 @@
       "name": "Nebraska",
       "state": "Nebraska",
       "city": "Lincoln",
-      "venueCount": 39,
+      "venueCount": 38,
       "price": "$34.95"
     },
     {
@@ -176,7 +176,7 @@
       "name": "North Carolina",
       "state": "North Carolina",
       "city": "Raleigh",
-      "venueCount": 42,
+      "venueCount": 41,
       "price": "$39.95"
     },
     {
@@ -200,7 +200,7 @@
       "name": "Oregon",
       "state": "Oregon",
       "city": "Salem",
-      "venueCount": 32,
+      "venueCount": 33,
       "price": "$54.95"
     },
     {
